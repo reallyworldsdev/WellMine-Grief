@@ -1,0 +1,462 @@
+menu_title: '§0● Рассадники и яйца'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Магазин.
+  '3':
+    display_name: '&#ffb000Р&#ffb500а&#ffba00с&#ffbf00с&#ffc500а&#ffca00д&#ffcf00н&#ffd400и&#ffd900к'
+    slot: 3
+    material: spawner
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] give %player_name% spawner 1'
+  '4':
+    display_name: '&#ffb000Р&#ffb500а&#ffba00с&#ffbf00с&#ffc500а&#ffca00д&#ffcf00н&#ffd400и&#ffd900к'
+    slot: 4
+    material: spawner
+    amount: 3
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551249Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1249
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1249'
+    - '[console] give %player_name% spawner 3'
+  '5':
+    display_name: '&#ffb000Р&#ffb500а&#ffba00с&#ffbf00с&#ffc500а&#ffca00д&#ffcf00н&#ffd400и&#ffd900к'
+    slot: 5
+    material: spawner
+    amount: 5
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552199Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2199
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2199'
+    - '[console] give %player_name% spawner 5'
+  '12':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbb00п&#ffbe00р&#ffc000и&#ffc200з&#ffc500ы&#ffc700в&#ffc900а &#ffce00в&#ffd000е&#ffd200д&#ffd400ь&#ffd700м&#ffd900ы'
+    slot: 12
+    material: witch_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55129₽'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 5129
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 5129'
+    - '[console] give %player_name% witch_spawn_egg 1'
+  '14':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffba00п&#ffbc00р&#ffbe00и&#ffc000з&#ffc200ы&#ffc400в&#ffc500а &#ffc900п&#ffcb00о&#ffcd00б&#ffcf00о&#ffd100р&#ffd300н&#ffd500и&#ffd700к&#ffd900а'
+    slot: 14
+    material: vindicator_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55199₽'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 5199
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 5199'
+    - '[console] give %player_name% vindicator_spawn_egg 1'
+  '19':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffba00п&#ffbc00р&#ffbe00и&#ffc000з&#ffc200ы&#ffc500в&#ffc700а &#ffcb00в&#ffcd00с&#ffcf00п&#ffd100о&#ffd300л&#ffd500о&#ffd700х&#ffd900а'
+    slot: 19
+    material: blaze_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff555500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 5500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 5500'
+    - '[console] give %player_name% blaze_spawn_egg 1'
+  '20':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbb00п&#ffbe00р&#ffc000и&#ffc200з&#ffc500ы&#ffc700в&#ffc900а &#ffce00с&#ffd000л&#ffd200а&#ffd400й&#ffd700м&#ffd900а'
+    slot: 20
+    material: slime_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552250Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 250
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 250'
+    - '[console] give %player_name% slime_spawn_egg 1'
+  '21':
+    display_name: '&#ffb000Я&#ffb200й&#ffb300ц&#ffb500о &#ffb800п&#ffba00р&#ffbb00и&#ffbd00з&#ffbf00ы&#ffc000в&#ffc200а &#ffc500в&#ffc700и&#ffc900з&#ffca00е&#ffcc00р&#ffce00-&#ffcf00с&#ffd100к&#ffd200е&#ffd400л&#ffd600е&#ffd700т&#ffd900а'
+    slot: 21
+    material: wither_skeleton_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff553900Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 3900
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 3900'
+    - '[console] give %player_name% wither_skeleton_spawn_egg 1'
+  '22':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbc00п&#ffbe00р&#ffc100и&#ffc300з&#ffc600ы&#ffc800в&#ffcb00а &#ffcf00з&#ffd200о&#ffd400м&#ffd700б&#ffd900и'
+    slot: 22
+    material: zombie_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff553000Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 3000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 3000'
+    - '[console] give %player_name% zombie_spawn_egg 1'
+  '23':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffbb00п&#ffbd00р&#ffbf00и&#ffc100з&#ffc300ы&#ffc600в&#ffc800а &#ffcc00с&#ffce00к&#ffd000е&#ffd300л&#ffd500е&#ffd700т&#ffd900а'
+    slot: 23
+    material: skeleton_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff553300Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 3300
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 3300'
+    - '[console] give %player_name% skeleton_spawn_egg 1'
+  '24':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffbb00п&#ffbd00р&#ffbf00и&#ffc100з&#ffc300ы&#ffc600в&#ffc800а &#ffcc00к&#ffce00р&#ffd000и&#ffd300п&#ffd500е&#ffd700р&#ffd900а'
+    slot: 24
+    material: creeper_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff554500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 4500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 4500'
+    - '[console] give %player_name% creeper_spawn_egg 1'
+  '25':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbc00п&#ffbe00р&#ffc100и&#ffc300з&#ffc600ы&#ffc800в&#ffcb00а &#ffcf00п&#ffd200а&#ffd400у&#ffd700к&#ffd900а'
+    slot: 25
+    material: spider_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2500'
+    - '[console] give %player_name% spider_spawn_egg 1'
+  '28':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffbb00п&#ffbd00р&#ffbf00и&#ffc100з&#ffc300ы&#ffc600в&#ffc800а &#ffcc00ш&#ffce00а&#ffd000л&#ffd300к&#ffd500е&#ffd700р&#ffd900а'
+    slot: 28
+    material: shulker_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff556500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 6500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 6500'
+    - '[console] give %player_name% shulker_spawn_egg 1'
+  'enderman_spawn_egg':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb600о &#ffba00п&#ffbc00р&#ffbe00и&#ffc000з&#ffc200ы&#ffc400в&#ffc500а &#ffc900э&#ffcb00н&#ffcd00д&#ffcf00е&#ffd100р&#ffd300м&#ffd500е&#ffd700н&#ffd900а'
+    slot: 29
+    material: enderman_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff553000Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 3000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 3000'
+    - '[console] give %player_name% enderman_spawn_egg 1'
+  'cow_spawn_egg':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbb00п&#ffbe00р&#ffc000и&#ffc200з&#ffc500ы&#ffc700в&#ffc900а &#ffce00к&#ffd000о&#ffd200р&#ffd400о&#ffd700в&#ffd900ы'
+    slot: 30
+    material: cow_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551350Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1350
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1350'
+    - '[console] give %player_name% cow_spawn_egg 1'
+  'pig_spawn_egg':
+    display_name: '&#ffb000Я&#ffb200й&#ffb500ц&#ffb700о &#ffbb00п&#ffbe00р&#ffc000и&#ffc200з&#ffc500ы&#ffc700в&#ffc900а &#ffce00с&#ffd000в&#ffd200и&#ffd400н&#ffd700ь&#ffd900и'
+    slot: 31
+    material: pig_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551050Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1050
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1050'
+    - '[console] give %player_name% pig_spawn_egg 1'
+  'sheep_spawn_egg':
+    display_name: '&#ffb000Я&#ffb300й&#ffb500ц&#ffb800о &#ffbd00п&#ffbf00р&#ffc200и&#ffc500з&#ffc700ы&#ffca00в&#ffcc00а &#ffd100о&#ffd400в&#ffd600ц&#ffd900ы'
+    slot: 32
+    material: sheep_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55700Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 700
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 700'
+    - '[console] give %player_name% sheep_spawn_egg 1'
+  'villager_spawn_egg':
+    display_name: '&#ffb000Я&#ffb200й&#ffb400ц&#ffb500о &#ffb900п&#ffbb00р&#ffbc00и&#ffbe00з&#ffc000ы&#ffc200в&#ffc400а &#ffc700к&#ffc900р&#ffcb00е&#ffcd00с&#ffce00т&#ffd000ь&#ffd200я&#ffd400н&#ffd500и&#ffd700н&#ffd900а'
+    slot: 33
+    material: villager_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff557500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 7500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 7500'
+    - '[console] give %player_name% villager_spawn_egg 1'
+  'magma_cube_spawn_egg':
+    display_name: '&#ffb000Я&#ffb200й&#ffb300ц&#ffb500о &#ffb800п&#ffb900р&#ffbb00и&#ffbd00з&#ffbe00ы&#ffc000в&#ffc100а &#ffc500м&#ffc600а&#ffc800г&#ffc900м&#ffcb00о&#ffcc00в&#ffce00о&#ffd000г&#ffd100о &#ffd400к&#ffd600у&#ffd700б&#ffd900а'
+    slot: 34
+    material: magma_cube_spawn_egg
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff553300Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 3300
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 3300'
+    - '[console] give %player_name% magma_cube_spawn_egg 1'

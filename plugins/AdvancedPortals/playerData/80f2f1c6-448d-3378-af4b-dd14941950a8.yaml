@@ -1,0 +1,14 @@
+destiVisible: false
+perPortalCooldowns: {}
+portalVisible: false
+pos1:
+  posX: 146
+  posY: 7
+  posZ: -143
+  worldName: spawn
+pos2:
+  posX: -184
+  posY: 41
+  posZ: 187
+  worldName: spawn
+selectedPortal: null

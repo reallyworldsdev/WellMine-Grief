@@ -1,0 +1,59 @@
+menu_title: '&0● Рандомная телепортация'
+open_command: rtp
+size: 45
+items: 
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вариации.
+  'safe':
+    material: ender_pearl
+    slot: 20
+    display_name: '&6Близкая телепортация'
+    lore:
+    - ''
+    - ' &7Дальность: &61000 блоков'
+    - ' &7Опасность: &6Средняя'
+    - ' &7Доступно: &aВСЕМ'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    click_commands:
+    - '[player] rtp safe'
+    - '[close]'
+  'far':
+    material: ender_eye
+    slot: 24
+    display_name: '&6Далекая телепортация'
+    lore:
+    - ''
+    - ' &7Дальность: &62500 блоков'
+    - ' &7Опасность: &6Низкая'
+    - ' &7Доступно: &7от &9&lHERO'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    click_commands:
+    - '[player] rtp far'
+    - '[close]'
+  'near':
+    material: player_head
+    data: 3
+    slot: 22
+    display_name: '&6Телепортация рядом с игроками'
+    lore:
+    - ''
+    - ' &7Дальность: &6по всей карте'
+    - ' &7Опасность: &cВысокая'
+    - ' &7Доступно: &7от &c&lIMPERATOR'
+    - ''
+    - '&aНажмите, чтобы телепортироваться'
+    left_click_commands:
+    - '[player] rtp near'
+    - '[close]'

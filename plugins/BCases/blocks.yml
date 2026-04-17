@@ -1,0 +1,52 @@
+blocks:
+- world: spawn
+  pos:
+    x: -18
+    y: 64
+    z: 13
+  on_click_menu: bcases:key_list
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.5
+      z: 0.5
+    lines:
+    - §x§F§F§B§0§0§0§k- §x§F§F§B§0§0§0Т§x§F§F§B§2§0§0а§x§F§F§B§5§0§0и§x§F§F§B§7§0§0н§x§F§F§B§9§0§0с§x§F§F§B§B§0§0т§x§F§F§B§E§0§0в§x§F§F§C§0§0§0е§x§F§F§C§2§0§0н§x§F§F§C§5§0§0н§x§F§F§C§7§0§0ы§x§F§F§C§9§0§0й
+      §x§F§F§C§E§0§0с§x§F§F§D§0§0§0у§x§F§F§D§2§0§0н§x§F§F§D§4§0§0д§x§F§F§D§7§0§0у§x§F§F§D§9§0§0к
+      §x§F§F§D§9§0§0§k-
+    - '&7Нажмите, чтобы открыть'
+  block: minecraft:barrel[facing=up,open=false]
+- world: spawn
+  pos:
+    x: -18
+    y: 64
+    z: 31
+  on_click_menu: bcases:key_list
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.5
+      z: 0.5
+    lines:
+    - §x§F§F§B§0§0§0§k- §x§F§F§B§0§0§0Т§x§F§F§B§2§0§0а§x§F§F§B§5§0§0и§x§F§F§B§7§0§0н§x§F§F§B§9§0§0с§x§F§F§B§B§0§0т§x§F§F§B§E§0§0в§x§F§F§C§0§0§0е§x§F§F§C§2§0§0н§x§F§F§C§5§0§0н§x§F§F§C§7§0§0ы§x§F§F§C§9§0§0й
+      §x§F§F§C§E§0§0с§x§F§F§D§0§0§0у§x§F§F§D§2§0§0н§x§F§F§D§4§0§0д§x§F§F§D§7§0§0у§x§F§F§D§9§0§0к
+      §x§F§F§D§9§0§0§k-
+    - '&7Нажмите, чтобы открыть'
+  block: minecraft:barrel[facing=up,open=false]
+- world: spawn
+  pos:
+    x: -19
+    y: 64
+    z: 22
+  on_click_menu: bcases:key_list
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.5
+      z: 0.5
+    lines:
+    - §x§F§F§B§0§0§0§k- §x§F§F§B§0§0§0Т§x§F§F§B§2§0§0а§x§F§F§B§5§0§0и§x§F§F§B§7§0§0н§x§F§F§B§9§0§0с§x§F§F§B§B§0§0т§x§F§F§B§E§0§0в§x§F§F§C§0§0§0е§x§F§F§C§2§0§0н§x§F§F§C§5§0§0н§x§F§F§C§7§0§0ы§x§F§F§C§9§0§0й
+      §x§F§F§C§E§0§0с§x§F§F§D§0§0§0у§x§F§F§D§2§0§0н§x§F§F§D§4§0§0д§x§F§F§D§7§0§0у§x§F§F§D§9§0§0к
+      §x§F§F§D§9§0§0§k-
+    - '&7Нажмите, чтобы открыть'
+  block: minecraft:barrel[facing=up,open=false]

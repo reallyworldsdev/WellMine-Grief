@@ -1,0 +1,66 @@
+name: '&#ffb000С&#ffb300о&#ffb600л&#ffb900н&#ffbc00е&#ffbf00ч&#ffc200н&#ffc500ы&#ffc700й
+  &#ffcd00т&#ffd000о&#ffd300п&#ffd600о&#ffd900р'
+glow: false
+lore:
+- §r §x§f§f§a§a§0§0┃ §7Острота VI
+- ' §x§F§F§A§A§0§0┃ §7Прочность III'
+- §r §x§f§f§a§a§0§0┃ §7Заговор огня II
+material: NETHERITE_AXE
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Sharpness
+    level: 4
+  enchantment1:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

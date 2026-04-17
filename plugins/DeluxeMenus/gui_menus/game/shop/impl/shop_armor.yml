@@ -1,0 +1,393 @@
+menu_title: '§0● Амуниция'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Амуниция.
+  'sun_helmet':
+    display_name: '&#ffb000C&#ffb300о&#ffb600л&#ffb900н&#ffbd00е&#ffc000ч&#ffc300н&#ffc600ы&#ffc900й &#ffd000ш&#ffd300л&#ffd600е&#ffd900м'
+    slot: 11
+    material: netherite_helmet
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Починка'
+    - ' &#ffaa00┃ &7Защита IV'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Подводное дыхание III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] ei give %player_name% sun_helmet'
+  'sun_chestplate':
+    display_name: '&#ffb000C&#ffb200о&#ffb500л&#ffb700н&#ffb900е&#ffbb00ч&#ffbe00н&#ffc000ы&#ffc200й &#ffc700н&#ffc900а&#ffcb00г&#ffce00р&#ffd000у&#ffd200д&#ffd400н&#ffd700и&#ffd900к'
+    slot: 12
+    material: netherite_chestplate
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Починка'
+    - ' &#ffaa00┃ &7Защита IV'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] ei give %player_name% sun_chestplate'
+  'elytra':
+    display_name: '&#ffb000C&#ffb300о&#ffb500л&#ffb800н&#ffbb00е&#ffbe00ч&#ffc000н&#ffc300ы&#ffc600е &#ffcb00к&#ffce00р&#ffd100ы&#ffd400л&#ffd600ь&#ffd900я'
+    slot: 13
+    material: elytra
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Починка'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &#ff5555Проклятие утраты'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551750Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1750
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1750'
+    - '[console] ei give %player_name% elytra'
+  'sun_leggings':
+    display_name: '&#ffb000C&#ffb300о&#ffb500л&#ffb800н&#ffbb00е&#ffbe00ч&#ffc000н&#ffc300ы&#ffc600е &#ffcb00п&#ffce00о&#ffd100н&#ffd400о&#ffd600ж&#ffd900и'
+    slot: 14
+    material: netherite_leggings
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Починка'
+    - ' &#ffaa00┃ &7Защита IV'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] ei give %player_name% sun_leggings'
+  'sun_boots':
+    display_name: '&#ffb000C&#ffb300о&#ffb500л&#ffb800н&#ffba00е&#ffbd00ч&#ffbf00н&#ffc200ы&#ffc500е &#ffca00б&#ffcc00о&#ffcf00т&#ffd100и&#ffd400н&#ffd600к&#ffd900и'
+    slot: 15
+    material: netherite_boots
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Починка'
+    - ' &#ffaa00┃ &7Защита IV'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Невесомость IV'
+    - ' &#ffaa00┃ &7Подводная ходьба III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] ei give %player_name% sun_boots'
+  'farm_sword':
+    display_name: '&#ffb000М&#ffb400е&#ffb800ч &#ffc000ф&#ffc500а&#ffc900р&#ffcd00м&#ffd100и&#ffd500л&#ffd900ы'
+    slot: 20
+    material: netherite_sword
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Добыча V'
+    - ' &#ffaa00┃ &7Острота IV'
+    - ' &#ffaa00┃ &7Разящий клинок III'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551625Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1625
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1625'
+    - '[console] ei give %player_name% farm_sword'
+  'sun_sword':
+    display_name: '&#ffb000C&#ffb300о&#ffb700л&#ffba00н&#ffbe00е&#ffc100ч&#ffc500н&#ffc800ы&#ffcb00й &#ffd200м&#ffd600е&#ffd900ч'
+    slot: 21
+    material: netherite_sword
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Острота V'
+    - ' &#ffaa00┃ &7Заговор огня II'
+    - ' &#ffaa00┃ &7Разящий клинок III'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55999Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 999
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 999'
+    - '[console] ei give %player_name% sun_sword'
+  'sun_pickaxe':
+    display_name: '&#ffb000C&#ffb300о&#ffb600л&#ffb900н&#ffbc00е&#ffbf00ч&#ffc200н&#ffc500а&#ffc700я &#ffcd00к&#ffd000и&#ffd300р&#ffd600к&#ffd900а'
+    slot: 22
+    material: netherite_pickaxe
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Эффективность X'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Починка'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551250Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1250
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1250'
+    - '[console] ei give %player_name% sun_pickaxe'
+  'sun_axe':
+    display_name: '&#ffb000Т&#ffb300о&#ffb700п&#ffba00о&#ffbe00р &#ffc500ф&#ffc800а&#ffcb00р&#ffcf00м&#ffd200и&#ffd600л&#ffd900ы'
+    slot: 23
+    material: netherite_axe
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Эффективность X'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Починка'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551325Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1325
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1325'
+    - '[console] ei give %player_name% sun_axe'
+  'sun_axe2':
+    display_name: '&#ffb000С&#ffb300о&#ffb600л&#ffb900н&#ffbc00е&#ffbf00ч&#ffc200н&#ffc500ы&#ffc700й &#ffcd00т&#ffd000о&#ffd300п&#ffd600о&#ffd900р'
+    slot: 24
+    material: netherite_axe
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Острота VI'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Заговор огня II'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551665Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1665
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1665'
+    - '[console] ei give %player_name% sun_axe2'
+  'trident':
+    display_name: '&#ffb000Т&#ffb300р&#ffb600е&#ffb900з&#ffbc00у&#ffbf00б&#ffc200е&#ffc500ц &#ffca00с&#ffcd00о&#ffd000л&#ffd300н&#ffd600ц&#ffd900а'
+    slot: 30
+    material: trident
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Острота V'
+    - ' &#ffaa00┃ &7Пронзатель V'
+    - ' &#ffaa00┃ &7Верность III'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ' &#ffaa00┃ &7Громовержец'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55935Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 935
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 935'
+    - '[console] ei give %player_name% trident'
+  '32':
+    display_name: '&#ffb000Т&#ffb300р&#ffb700е&#ffba00з&#ffbe00у&#ffc100б&#ffc500е&#ffc800ц &#ffcf00т&#ffd200ь&#ffd600м&#ffd900ы'
+    slot: 32
+    material: trident
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Острота V'
+    - ' &#ffaa00┃ &7Пронзатель V'
+    - ' &#ffaa00┃ &7Тягун III'
+    - ' &#ffaa00┃ &7Прочность III'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551429Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1429
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1429'
+    - '[console] ei give %player_name% trident2'

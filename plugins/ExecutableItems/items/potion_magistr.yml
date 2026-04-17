@@ -1,0 +1,183 @@
+name: '&#9439ffЗ&#983bffе&#9d3dffл&#a140ffь&#a642ffе &#ae46ffМ&#b349ffа&#b74bffг&#bb4dffи&#c04fffс&#c452ffт&#c954ffр&#cd56ffа'
+glow: false
+lore:
+- §r §x§f§f§a§a§0§0┃ §x§5§5§5§5§f§fПрилив здоровья II §7(1:20)
+- §r §x§f§f§a§a§0§0┃ §x§5§5§5§5§f§fПоглощение II §7(1:20)
+- §r §x§f§f§a§a§0§0┃ §x§f§f§5§5§5§5Замедление §7(1:20)
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: CustomPotionEffects
+    type: COMPOUND_LIST
+    value:
+      '0':
+        key: comp0
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 500
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 21
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 1
+      '1':
+        key: comp1
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 500
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 1
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 2
+      '2':
+        key: comp2
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 800
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 18
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 0
+  '2':
+    key: Potion
+    type: STRING
+    value: minecraft:healing
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 1600
+      potionEffectType: SLOW
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+    pEffect1:
+      isAmbient: false
+      duration: 1600
+      potionEffectType: ABSORPTION
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    pEffect2:
+      isAmbient: false
+      duration: 1600
+      potionEffectType: HEALTH_BOOST
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+attributes: {}

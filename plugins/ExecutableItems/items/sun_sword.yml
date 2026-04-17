@@ -1,0 +1,70 @@
+name: '&#ffb000C&#ffb300о&#ffb700л&#ffba00н&#ffbe00е&#ffc100ч&#ffc500н&#ffc800ы&#ffcb00й
+  &#ffd200м&#ffd600е&#ffd900ч'
+glow: false
+lore:
+- ' §x§F§F§A§A§0§0┃ §7Острота V'
+- ' §x§F§F§A§A§0§0┃ §7Заговор огня II'
+- ' §x§F§F§A§A§0§0┃ §7Разящий клинок III'
+- ' §x§F§F§A§A§0§0┃ §7Прочность III'
+material: NETHERITE_SWORD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment1:
+    enchantment: Sharpness
+    level: 5
+  enchantment2:
+    enchantment: Sweeping
+    level: 3
+  enchantment3:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

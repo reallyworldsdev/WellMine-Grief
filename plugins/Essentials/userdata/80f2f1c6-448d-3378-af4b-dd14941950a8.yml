@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765786562515
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765628216350
+  login: 1765968626988
+money: '2480'
+last-account-name: alzxmpic
+lastlocation:
+  world: a2c3396c-f21b-4650-b907-0553acf498d7
+  world-name: world
+  x: 125.60442070704693
+  y: 75.71422449710946
+  z: 54.695786434764486
+  yaw: -0.3742910921573639
+  pitch: 18.449993133544922
+logoutlocation:
+  world: 0623dd14-0360-4f53-a8be-867cfe82684e
+  world-name: spawn
+  x: 18.252764855203296
+  y: 71.0
+  z: 22.511143661634865
+  yaw: -269.3072204589844
+  pitch: -1.1461750268936157

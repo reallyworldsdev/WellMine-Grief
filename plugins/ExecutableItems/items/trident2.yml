@@ -1,0 +1,69 @@
+name: '&#ffb000Т&#ffb300р&#ffb700е&#ffba00з&#ffbe00у&#ffc100б&#ffc500е&#ffc800ц &#ffcf00т&#ffd200ь&#ffd600м&#ffd900ы'
+glow: false
+lore:
+- ' §x§F§F§A§A§0§0┃ §7Острота V'
+- ' §x§F§F§A§A§0§0┃ §7Пронзатель V'
+- ' §x§F§F§A§A§0§0┃ §7Тягун III'
+- ' §x§F§F§A§A§0§0┃ §7Прочность III'
+material: TRIDENT
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Riptide
+    level: 3
+  enchantment1:
+    enchantment: Impaling
+    level: 5
+  enchantment3:
+    enchantment: Sharpness
+    level: 5
+  enchantment4:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

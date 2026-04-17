@@ -1,0 +1,276 @@
+# Доступные варианты:
+# LEGACY - "&fПример &#650dbdтекста"
+# MINIMESSAGE - "<white>Пример</white> <color:#650dbd>текста</color>" (https://webui.advntr.dev/)
+serializer: "LEGACY"
+
+# Настройки базы данных (используется для хранения статистики смертей и убийств)
+database:
+  # Тип используемой базы данных
+  # Доступные варианты:
+  # SQLite
+  # MySQL
+  type: "SQLite"
+
+  #Настройки MySQL
+  mysql:
+    host: null
+    port: 0
+    database: null
+    user: null
+    password: null
+
+# Начислять ли статистику игроку и партнеру если у них одинаковый IP (своеобразная защита от накрутки статистики)
+count-stats-for-same-ip: false
+
+# Настройка ограничения участия в /pvp для новых игроков
+time-played:
+  enabled: false
+  # Сколько минут должен наиграть игрок
+  time: 60
+  message: "{prefix} &fВы должны отыграть еще &e{time}м."
+
+# Режим поиска противника
+# AUTO - игроков автоматически будет телепортировать при входе второго игрока в очередь
+# LIST - игрок сам выбирает игрока с которым хочет PvP в меню
+search-mode: "LIST"
+
+# Режим локации
+# RTP - игроков телепортирует в случайное место в мире
+# ARENA - игроков телепортирует в заготовленные арены (выбирается случайная из секции arenes ниже)
+location-mode: "RTP"
+
+# Настроки случайной телепортации
+random-location:
+  # Количество попыток поиска случайной локации
+  attempts: 100
+
+  world: "world"
+  min-x: -2500
+  max-x: 2500
+  min-z: -2500
+  max-z: 2500
+
+  teleport-radius:
+    # Минимальное значение радиуса
+    min: 4
+    # Максимальное значение радиуса
+    max: 6
+
+  # Блоки на которые запрещена телепортация
+  black-list-blocks:
+    - "AIR"
+    - "LAVA"
+    - "WATER"
+    - "JUNGLE_LEAVES"
+    - "DARK_OAK_LEAVES"
+    - "SPRUCE_LEAVES"
+    - "BIRCH_LEAVES"
+    - "PODZOL"
+    - "RED_MUSHROOM_BLOCK"
+    - "BROWN_MUSHROOM_BLOCK"
+    - "OAK_LEAVES"
+  # Биомы в которые запрещена телепортация
+  black-list-biomes:
+    - "OCEAN"
+    - "MOUNTAINS"
+    - "FOREST"
+    - "BIRCH_FOREST"
+    - "TAIGA"
+    - "SNOWY_TAIGA"
+    - "DEEP_OCEAN"
+    - "MOUNTAINS"
+    - "JUNGLE"
+    - "RIVER"
+    - "SWAMP"
+    - "WARM_OCEAN"
+    - "SWAMP_HILLS"
+    - "TAIGA_HILLS"
+    - "GIANT_TREE_TAIGA"
+    - "SAVANNA"
+    - "JUNGLE_EDGE"
+    - "DEEP_COLD_OCEAN"
+    - "FLOWER_FOREST"
+    - "DEEP_LUKEWARM_OCEAN"
+    - "TALL_BIECH_HILLS"
+    - "BIRCH_FOREST_HILLS"
+    - "TAIGA_MOUNTAINS"
+    - "FROZEN_OCEAN"
+    - "WOODED_MOUNTAINS"
+    - "WOODED_HILLS"
+    - "WOODED_BADLANDS_PLATEAU"
+    - "JUNGLE_HILLS"
+    - "BADLANDS_PLATEAU"
+    - "DARK_FOREST"
+    - "MUSHROOM_ISLAND"
+    - "DEEP_FROZEN_OCEAN"
+    - "COLD_OCEAN"
+    - "BEACH"
+    - "WOODED_BADLAND_PLATEAU"
+    - "BADLANDS"
+    - "LUKEWARM_OCEAN"
+    - "THE_END"
+
+# Арены куда будет телепортировать игроков при режиме ARENA в location-mode
+# Если на арене уже есть игроки, то выберется другая которая будет свободна
+arenas:
+  arena1:
+    player:
+      world: "arena"
+      x: 100.0
+      y: 100.0
+      z: 100.0
+      yaw: 90.0
+      pitch: 0.0
+    partner:
+      world: "arena"
+      x: 100.0
+      y: 100.0
+      z: 100.0
+      yaw: 90.0
+      pitch: 0.0
+
+# Проверка брони на игроке
+equipment:
+  enabled: true
+  helmet:
+    - "DIAMOND_HELMET"
+    - "NETHERITE_HELMET"
+  chestplate:
+    - "DIAMOND_CHESTPLATE"
+    - "NETHERITE_CHESTPLATE"
+  leggings:
+    - "DIAMOND_LEGGINGS"
+    - "NETHERITE_LEGGINGS"
+  boots:
+    - "DIAMOND_BOOTS"
+    - "NETHERITE_BOOTS"
+
+  # Сообщение которое будет выводиться, если у игрока нет требуемой брони
+  message: "{prefix} &fУ вас должен быть полный комплект &bалмазной &fили &#8833ECнезеритовой &fброни!"
+
+# Выдача эффектов после телепортации
+give-effects:
+  enabled: true
+  # эффект;время;уровень
+  effects:
+    - "GLOWING;5;0"
+
+# Отправка рандомного сообщения из списока всем игрокам о входе в очередь
+join-broadcast-message:
+  enabled: true
+  messages:
+    - "{prefix} Игрок §e{player} §7бросил вызов серверу! &8(/pvp list)"
+
+# Отправка рандомного сообщения из списка всем игрокам об убийстве игрока
+kill-broadcast-message:
+  enabled: false
+  messages:
+    - "{prefix} &#8833EC{killed} &fпогиб при сражении с &#8833EC{killer} &fв &#8833EC/pvp"
+
+# Задержка в секундах перед телепортацией
+teleport-delay:
+  delay: 5
+  title:
+    enabled: true
+    message: "&fТелепортация через;&e{time} &fсекунд"
+  actionbar:
+    enabled: false
+    message: "&fТелепортация через &e{time} &fсекунд"
+  bossbar:
+    enabled: false
+    message: "&fТелепортация через &e{time} &fсекунд"
+    color: "PURPLE"
+    style: "SEGMENTED_12"
+
+  # Проверять ли получение урона во время отсчета до телепортации
+  check-damage:
+    enabled: true
+    # Список причин получения урона для отмены телепортации
+    # Список доступных причин: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+    # ALL - все причины
+    causes:
+      - "ENTITY_ATTACK"
+      - "WORLD_BORDER"
+      - "SUICIDE"
+      - "PROJECTILE"
+      - "MAGIC"
+    messages:
+      damage-received: "{prefix}&fВы получили урон. Телепортация отменена"
+      partner-damage: "{prefix}&fИгрок &#8833EC{player} &fполучил урон. Телепортация отменена"
+
+# Задержка в секундах на вход в очередь
+join-queue-delay:
+  delay: 10
+  message: "{prefix} &fПодождите &e{time} &fсекунд перед повторным входом в очередь!"
+
+# Телепортация игрока на заданную точку после окончания PvP
+teleport-back:
+  enabled: false
+  #  Через сколько (в секундах) телепортирует игрока
+  delay: 30
+  title:
+    enabled: false
+    message: "&fТелепортация на спавн через;&#8833EC{time} &fсекунд"
+  actionbar:
+    enabled: true
+    message: "&fТелепортация на спавн через &#8833EC{time} &fсекунд"
+  bossbar:
+    enabled: false
+    message: "&fТелепортация на спавн через &#8833EC{time} &fсекунд"
+    color: "PURPLE"
+    style: "SEGMENTED_12"
+  # Телепортация игрока на место откуда он телепортировался
+  # Если false, то игрока телепортирует на координаты указанные ниже
+  back: true
+
+  # Место куда телепортирует игрока
+  location:
+    world: "world"
+    x: 100.0
+    y: 100.0
+    z: 100.0
+    yaw: 90.0
+    pitch: 0.0
+
+# Задержка на нанесение урона первое время после телепортации
+pvp-delay:
+  enable: false
+  # Время задержки на PvP
+  time: 10
+  # Выдавать режим PvP (из плагинов AntiRelog, CombatLogX и прочих) после окончания таймера
+  # При false режим PvP выдастся сразу после телепортации
+  pvp-mode-after-timer: true
+
+  title:
+    enabled: true
+    message: "&fУрон включится через через;&#8833EC{time} &fсекунд"
+  actionbar:
+    enabled: false
+    message: "&fУрон включится через &#8833EC{time} &fсекунд"
+  bossbar:
+    enabled: false
+    message: "&fУрон включится через &#8833EC{time} &fсекунд"
+    color: "PURPLE"
+    style: "SEGMENTED_12"
+
+# Ничья по истечению времени
+draw:
+  enable: true
+  # Время до ничьи
+  time: 120
+  broadcast-message:
+    enabled: false
+    messages:
+      - "{prefix} &fСражение &#8833EC{player} &fи &#8833EC{partner} &fзавершилась ничьей в &#8833EC/pvp"
+
+# Запрет команд во время PvP
+block-commands:
+  enable: false
+  allowed-commands:
+    - ""
+
+# Проверять наличие региона (из WorldGuard) при телепортации
+check-region: true
+
+# Проверять наличие города (из Towny) при телепортации
+check-town: false

@@ -1,0 +1,30 @@
+location: spawn:14,479:73,188:22,498
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FED300Привет друг!'
+    height: 0.3
+  - content: '&7Ты попал на лучший классик, давай'
+    height: 0.3
+  - content: '&7ознакомимся с сервером!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fНавигация &7- &#FCAE00/&#FDB700m&#FDC100e&#FECA00n&#FED300u'
+    height: 0.3
+  - content: '&fАдминка &7- &#FCAE00/&#FDB700f&#FDC100r&#FECA00e&#FED300e'
+    height: 0.3
+  - content: '&fДонаты &7- &#FCAE00/&#FCB400d&#FDBA00o&#FDC100n&#FDC700a&#FECD00t&#FED300e'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fСайт: &#FCAE00s&#FCB100h&#FCB400o&#FDB700p&#FDBA00.&#FDBD00G&#FDC000r&#FDC300i&#FEC600e&#FEC900f&#FECC00Y&#FECF00o&#FED200u&#FFD500.&#FFD800p&#FFDB00w'
+    height: 0.3
+  - content: '&fГруппа ТГ: &#306E9Ft&#2C72A3g&#2977A7.&#257BABG&#2180AFr&#1E84B3i&#1A89B7e&#168DBCf&#1292C0Y&#0F96C4o&#0B9BC8u&#079FCC.&#04A4D0p&#00A8D4w'
+    height: 0.2
+  actions: {}

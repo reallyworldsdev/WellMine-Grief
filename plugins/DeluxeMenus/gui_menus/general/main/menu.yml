@@ -1,0 +1,144 @@
+menu_title: '&0● Основное меню'
+open_command: menu
+size: 45
+items:
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Главное.
+  'free':
+    display_name: '&#ffb000Н&#ffb300а&#ffb500г&#ffb800р&#ffbb00а&#ffbe00д&#ffc000ы &#ffc600з&#ffc900а &#ffce00в&#ffd100р&#ffd400е&#ffd600м&#ffd900я'
+    slot: 38
+    material: chest_minecart
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Копилка наград за вашу активность'
+    - ' &#ffaa00┃ &7Чем дольше играете тем больше получаете'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameAwardsReward'
+  'shop':
+    display_name: '&#ffb000М&#ffb600а&#ffbc00г&#ffc200а&#ffc700з&#ffcd00и&#ffd300н&#ffd900ы'
+    slot: 40
+    material: pufferfish
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Не один, а несколько магазинов'
+    - ' &#ffaa00┃ &7Беги за лучшими предложениями прямо сейчас'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  'donatemenu':
+    display_name: '&#ffb000Д&#ffb500о&#ffb900н&#ffbe00а&#ffc200т &#ffcb00м&#ffd000е&#ffd400н&#ffd900ю'
+    slot: 42
+    material: fire_charge
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Хочешь выделиться из толпы и помочь серверу?'
+    - ' &#ffaa00┃ &7Твой вклад сделает проект лучше для всех'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true
+    click_commands:
+    - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &fПоддержать наш проект можно тут - &#FCAE00s&#FCB100h&#FCB400o&#FDB700p&#FDBA00.&#FDBD00G&#FDC000r&#FDC300i&#FEC600e&#FEC900f&#FECC00Y&#FECF00o&#FED200u&#FFD500.&#FFD800p&#FFDB00w'
+    - '[close]'
+  'obmen':
+    display_name: '&#ffb000О&#ffb600б&#ffbc00м&#ffc200е&#ffc700н&#ffcd00н&#ffd300и&#ffd900к'
+    slot: 15
+    material: gold_nugget
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Хочешь торговать в другой валюте?'
+    - ' &#ffaa00┃ &7Телепортируйся и обменивай без проблем'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true
+  # Варпы.
+  'warpSeller':
+    display_name: '&#ffb000С&#ffb700к&#ffbe00у&#ffc500п&#ffcb00щ&#ffd200и&#ffd900к'
+    slot: 11
+    material: hopper_minecart
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7У нас работает уникальный скупщик'
+    - ' &#ffaa00┃ &7С выгодными условиями, включая автоматическую скупку'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55телепортироваться &7в точку'
+    click_commands:
+    - '[player] warp buyer'
+  'warpArena':
+    display_name: '&#ffb000П&#ffb500в&#ffba00п&#ffbf00-&#ffc500А&#ffca00р&#ffcf00е&#ffd400н&#ffd900а'
+    slot: 13
+    material: diamond_sword
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Арена для жестоких драк,'
+    - ' &#ffaa00┃ &7Где можно устроить полный разборки'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55телепортироваться &7в точку'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[player] warp pvp'
+  'warpPortals':
+    display_name: '&#ffb000П&#ffb700о&#ffbe00р&#ffc500т&#ffcb00а&#ffd200л&#ffd900ы'
+    slot: 20
+    material: end_portal_frame
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Своя зона в нижнем мире и эндер-мире,'
+    - ' &#ffaa00┃ &7Никто не смеет спорить решение твое'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55телепортироваться &7в точку'
+    hide_attributes: true
+    click_commands:
+    - '[player] warp portals'
+  'warpFree':
+    display_name: '&#ffb000А&#ffb500ф&#ffba00к&#ffbf00-&#ffc500О&#ffca00з&#ffcf00е&#ffd400р&#ffd900о'
+    slot: 22
+    material: water_bucket
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Место для халявщиков здесь'
+    - ' &#ffaa00┃ &7теплая атмосфера и горячие рублики'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55телепортироваться &7в точку'
+    hide_attributes: true
+    click_commands:
+    - '[player] warp free'
+  'warpCase':
+    display_name: '&#ffb000К&#ffba00е&#ffc500й&#ffcf00с&#ffd900ы'
+    slot: 24
+    material: ender_chest
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Место, где открываются мечты'
+    - ' &#ffaa00┃ &7Используй телепорт и поймай свой джекпот'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55телепортироваться &7в точку'
+    hide_attributes: true
+    click_commands:
+    - '[player] warp case'

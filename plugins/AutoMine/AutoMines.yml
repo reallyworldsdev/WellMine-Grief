@@ -1,0 +1,45 @@
+AutoMines:
+  mine:
+    firstPos:
+      x: -17.0
+      y: 51.0
+      z: 103.0
+    secondPos:
+      x: -31.0
+      y: 62.0
+      z: 89.0
+    world: spawn
+    spawnHologram: 'false'
+    hologramPos:
+      world: spawn
+      x: -17.0
+      y: 65.0
+      z: 103.0
+    lines:
+    - 'Текущая шахта: %am_current_mine%'
+    - 'Следующая шахта: %am_next_mine%'
+    - 'До обновления: %am_time_mine%'
+    timeUpdate: 300
+    typeMine:
+      default:
+        name: '&#3DFB2DУ&#3FFB2Fл&#40FC31у&#42FC32ч&#44FD34ш&#45FD36е&#47FE38н&#49FE39н&#4AFF3Bа&#4CFF3Dя'
+        chance: 100
+        teleportPosition: 'null'
+        minOnline: 0
+        blockList:
+        - '50.0 : IRON_ORE'
+        - '100.0 : STONE'
+        update_message: []
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>
+      super:
+        name: '&#3DFB2DУ&#3FFB2Fл&#40FC31у&#42FC32ч&#44FD34ш&#45FD36е&#47FE38н&#49FE39н&#4AFF3Bа&#4CFF3Dя'
+        chance: 50
+        teleportPosition: 'null'
+        minOnline: 0
+        blockList:
+        - '50.0 : GOLD_ORE'
+        - '100.0 : STONE'
+        update_message: []
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>

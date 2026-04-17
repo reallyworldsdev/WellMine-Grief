@@ -1,0 +1,146 @@
+menu_title: '&0● Донатерский магазин'
+register_command: true
+open_command:
+- shopdonate
+size: 45
+items:
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Магазин.
+  'items':
+    display_name: '&#ffb000П&#ffb300о&#ffb600т&#ffb900а&#ffbd00й&#ffc000н&#ffc300а&#ffc600я &#ffcc00л&#ffd000а&#ffd300в&#ffd600к&#ffd900а'
+    slot: 20
+    material: gold_ingot
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Закончились расходники? не беда'
+    - ' &#ffaa00┃ &7В нашем магазине всегда в наличии все необходимое'
+    - ' &#ffaa00┃ &7Пополняй запасы быстро и выгодно в пару кликов'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopSecretshop'
+    
+  'shop_sphere':
+    display_name: '&#ffb000У&#ffb300н&#ffb600и&#ffb900к&#ffbc00а&#ffbf00л&#ffc200ь&#ffc500н&#ffc700ы&#ffca00е &#ffd000ш&#ffd300а&#ffd600р&#ffd900ы'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ1ZTg1ZWRkYTFhODFkMjI0YWRiNzEzYjEzYjcwMzhkNWNjNmJlY2Q5OGE3MTZiOGEzZGVjN2UzYTBmOTgxNyJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Тут шары просто огонь, бери не стесняйся,'
+    - ' &#ffaa00┃ &7И в деле их потом смело применяй'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true 
+    click_commands:
+    - '[openguimenu] gameShopImpl_sphere'
+  'shop_spawner':
+    display_name: '&#ffb000Р&#ffb300а&#ffb500с&#ffb800с&#ffba00а&#ffbd00д&#ffbf00н&#ffc200и&#ffc500к&#ffc700и &#ffcc00и &#ffd100я&#ffd400й&#ffd600ц&#ffd900а'
+    slot: 20
+    material: spawner
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Мечтаете о богатстве? фарм на спавнерах'
+    - ' &#ffaa00┃ &7Верный путь к прибыли, не упустите шанс'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopImpl_spawner'
+  'shop_armor':
+    display_name: '&#ffb000А&#ffb600м&#ffbc00у&#ffc200н&#ffc700и&#ffcd00ц&#ffd300и&#ffd900я'
+    slot: 22
+    material: netherite_chestplate
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Эксклюзивная экипировка сервера'
+    - ' &#ffaa00┃ &7Купи или выбей, другого пути нет'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopImpl_armor'
+  'shop_furnace':
+    display_name: '&#ffb000П&#ffb200е&#ffb500ч&#ffba00к&#ffbc00и &#ffc100и &#ffc600з&#ffc800е&#ffcb00л&#ffcd00ье&#ffcf00в&#ffd200а&#ffd400р&#ffd700к&#ffd900и'
+    slot: 24
+    material: furnace
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Эксклюзивные печки и зельеварки'
+    - ' &#ffaa00┃ &7Работают быстрее и дают больше ресурсов'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true 
+    click_commands:
+    - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7Находится в студии переработки, ожидайте...'
+  'shop_leave':
+    display_name: '&#ffb000У&#ffb200н&#ffb500и&#ffb700к&#ffba00а&#ffbc00л&#ffbe00ь&#ffc100н&#ffc300ы&#ffc600й &#ffcb00п&#ffcd00р&#ffcf00е&#ffd200д&#ffd400м&#ffd700е&#ffd900т'
+    slot: 30
+    material: clay_ball
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Уникальный предмет, который больше нигде не найти'
+    - ' &#ffaa00┃ &7Говорят, не 10 жизней спасла успей купить'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopImpl_leave'
+  'shop_potion':
+    display_name: '&#ffb000У&#ffb300н&#ffb500и&#ffb800к&#ffbb00а&#ffbe00л&#ffc000ь&#ffc300н&#ffc600ы&#ffc900е &#ffce00з&#ffd100е&#ffd400л&#ffd600ь&#ffd900я'
+    slot: 32
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Эффекты, недоступные обычным игрокам'
+    - ' &#ffaa00┃ &7Ваш шанс стать сильнее всех на сервере'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopImpl_potion'

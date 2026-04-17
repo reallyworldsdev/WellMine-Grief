@@ -1,0 +1,73 @@
+name: '&#ffb000Т&#ffb300р&#ffb600е&#ffb900з&#ffbc00у&#ffbf00б&#ffc200е&#ffc500ц &#ffca00с&#ffcd00о&#ffd000л&#ffd300н&#ffd600ц&#ffd900а'
+glow: false
+lore:
+- ' §x§f§f§a§a§0§0┃ §7Острота V'
+- ' §x§f§f§a§a§0§0┃ §7Пронзатель V'
+- §r §x§f§f§a§a§0§0┃ §7Верность III
+- §r §x§f§f§a§a§0§0┃ §7Прочность III
+- §r §x§f§f§a§a§0§0┃ §7Громовержец
+material: TRIDENT
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Sharpness
+    level: 5
+  enchantment1:
+    enchantment: Unbreaking
+    level: 3
+  enchantment2:
+    enchantment: Impaling
+    level: 5
+  enchantment3:
+    enchantment: Loyalty
+    level: 3
+  enchantment4:
+    enchantment: Channeling
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

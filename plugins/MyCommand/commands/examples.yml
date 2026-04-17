@@ -1,0 +1,65 @@
+# 
+donate23:
+  command: /donate
+  type: TEXT
+  text:
+  - '§x§F§C§A§E§0§0&lɢ§x§F§C§B§4§0§0&lʀ§x§F§D§B§B§0§0&lɪ§x§F§D§C§1§0§0&lᴇ§x§F§E§C§8§0§0&lꜰ§x§F§E§C§E§0§0&lʏ§x§F§F§D§5§0§0&lᴏ§x§F§F§D§B§0§0&lᴜ
+    §8» §fСайт для пожертвования - §x§F§C§A§E§0§0shop.GriefYou.pw'
+  register: true
+  permission-required: false 
+glist:
+  command: /glist1
+  type: RUN_COMMAND
+  runcmd:
+  - '$text$&8» &aСбор информации. Пожалуйста, подождите...'
+  - '$text$ &fИгроков на &6хабе&f: &6%bungee_hub-1%'
+  - '$text$ &fИгроков на &6рв1&f: &6%bungee_rw1%'
+  - '$text$ &fОбщий онлайн: &6%bungee_total%'
+  permission-required: true
+  permission-node: group.vlad
+  register: true
+resourcepack:
+  command: /resourcepack
+  type: TEXT
+  text:
+  - '&x&F&C&A&E&0&0&lɢ&x&F&C&B&3&0&0&lʀ&x&F&D&B&9&0&0&lɪ&x&F&D&B&E&0&0&lᴇ&x&F&D&C&3&0&0&lꜰ&x&F&D&C&8&0&0&lʏ&x&F&E&C&E&0&0&lᴏ&x&F&E&D&3&0&0&lᴜ &8» &fДля тех у кого &eвозможно&f возникнут проблемы &fс загрузкой нашего ресурспака.'
+  - ''
+  - '&f В списке серверов, мы кликаем 1 раз на наш сервер и снизу выбираем &fкнопку «&eНастроить&f», далее попадая в новое окно включаем «&eНаборы ресурсов&f», &fу вас оно возможно будет: «&cОтключено&f» или «&eЗапрашивать&f», &fно нужно сделать, чтобы писалось «&aВключены&f», далее нажимаем &f«&6Готово&f» и заходим на сервер.'
+  - ''
+  - '&fЕсли у вас не грузит ресурспак. Удалите папку &eserver-resource-packs&f и перезапустите лаунчер.'
+  - ''
+  register: true
+  permission-required: false
+bc:
+  command: /bc
+  type: BROADCAST_TEXT
+  text:
+  - '&8[&6&lОБЪЯВЛЕНИЕ&8] &7Говорит $player: &6$multiargs'
+  permission-required: true
+  permission-node: furyworld.broadcast
+  permission-error: "&x&F&C&A&E&0&0&lɢ&x&F&C&B&3&0&0&lʀ&x&F&D&B&9&0&0&lɪ&x&F&D&B&E&0&0&lᴇ&x&F&D&C&3&0&0&lꜰ&x&F&D&C&8&0&0&lʏ&x&F&E&C&E&0&0&lᴏ&x&F&E&D&3&0&0&lᴜ &8» &fУ тебя недостаточно прав!"
+  cooldown: 120
+  cooldown-message: "&x&F&C&A&E&0&0&lɢ&x&F&C&B&3&0&0&lʀ&x&F&D&B&9&0&0&lɪ&x&F&D&B&E&0&0&lᴇ&x&F&D&C&3&0&0&lꜰ&x&F&D&C&8&0&0&lʏ&x&F&E&C&E&0&0&lᴏ&x&F&E&D&3&0&0&lᴜ &8» &fВы слишком часто пишите, подождите"
+  required_args: 1
+  register: true
+  regex_pattern: "^[-a-zA-Z0-9-а-яА-Я()!?№;%:*+@#$%^*+._/ ]+"
+  regex_error_message: "&x&F&C&A&E&0&0&lɢ&x&F&C&B&3&0&0&lʀ&x&F&D&B&9&0&0&lɪ&x&F&D&B&E&0&0&lᴇ&x&F&D&C&3&0&0&lꜰ&x&F&D&C&8&0&0&lʏ&x&F&E&C&E&0&0&lᴏ&x&F&E&D&3&0&0&lᴜ &8» &fСимволы запрещены для использования в объявлении."
+ping:
+  command: /ping
+  type: TEXT
+  text:
+  - '&x&F&C&A&E&0&0&lɢ&x&F&C&B&3&0&0&lʀ&x&F&D&B&9&0&0&lɪ&x&F&D&B&E&0&0&lᴇ&x&F&D&C&3&0&0&lꜰ&x&F&D&C&8&0&0&lʏ&x&F&E&C&E&0&0&lᴏ&x&F&E&D&3&0&0&lᴜ &8» &fВаш пинг&7: &6%player_ping%'
+  register: true
+  permission-required: false
+seller:
+  command: /seller
+  type: ALIAS
+  alias: /buyer
+  register: true
+  permission-required: false
+hub:
+  command: /hub
+  type: BUNGEE_TP
+  server_name: hub-1
+  register: true
+  permission-required: false

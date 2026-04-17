@@ -1,0 +1,22 @@
+location: spawn:-23,514:64,000:-12,525
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FCAE00О&#FCB200з&#FCB500е&#FDB900р&#FDBD00о &#FDC100о&#FDC400т&#FDC800д&#FECC00ы&#FECF00х&#FED300а'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Хочешь &aразбогатеть? &7не вопрос!'
+    height: 0.3
+  - content: '&7в этом озере ты можешь &aполучать'
+    height: 0.3
+  - content: '&7каждые 30 минут рубли! Но помни,'
+    height: 0.3
+  - content: '&7что в выходные - &aрубли х2!'
+    height: 0.3
+  actions: {}

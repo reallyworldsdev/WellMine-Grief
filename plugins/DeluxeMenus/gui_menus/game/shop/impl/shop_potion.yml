@@ -1,0 +1,205 @@
+menu_title: '§0● Уникальные зелья'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Магазин.
+  'potion_sun':
+    display_name: '&#ffa500З&#ffa900е&#ffad00л&#ffb000ь&#ffb400е &#ffbc00С&#ffc000о&#ffc400л&#ffc700н&#ffcb00ц&#ffcf00а'
+    slot: 13
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffСила II &7(2:30)'
+    - ' &#ffaa00┃ &#5555ffСкорость II &7(2:30)'
+    - ' &#ffaa00┃ &#5555ffОгнестойкость &7(8:00)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55459Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 459
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 459'
+    - '[console] ei give %player_name% potion_sun'
+  'potion_life':
+    display_name: '&#1dff2cЗ&#22ff32е&#27ff37л&#2cff3dь&#31ff42е &#3bff4dЖ&#40ff53и&#44ff58в&#49ff5eу&#4eff63ч&#53ff69е&#58ff6eс&#5dff74т&#62ff79и'
+    slot: 20
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffСопротивление II &7(2:00)'
+    - ' &#ffaa00┃ &#5555ffПрилив здоровья II &7(0:30)'
+    - ' &#ffaa00┃ &#ff5555Голод II &7(0:30)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55900Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 900
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 900'
+    - '[console] ei give %player_name% potion_life'
+  'potion_sparrow':
+    display_name: '&#ffffffЗ&#fcfcfcе&#f9f9f9л&#f6f6f6ь&#f3f3f3е &#edededВ&#eaeaeaо&#e7e7e7р&#e4e4e4о&#e1e1e1б&#dededeь&#dbdbdbя'
+    slot: 21
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffСвечение &7(0:10)'
+    - ' &#ffaa00┃ &#ff5555Левитация II &7(0:10)'
+    - ' &#ffaa00┃ &#ff5555Слепота &7(0:08)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55300Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 300
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 300'
+    - '[console] ei give %player_name% potion_sparrow'
+  'potion_light':
+    display_name: '&#1aa3ffЗел&#27a9ffь&#34afffе &#4ebaffМ&#5bbfffо&#68c5ffл&#75cbffн&#82d0ffи&#8fd6ffи'
+    slot: 22
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffСкорость III &7(0:25)'
+    - ' &#ffaa00┃ &#5555ffПрилив здоровья II &7(0:25)'
+    - ' &#ffaa00┃ &#ff5555Слабость &7(0:40)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55300Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 300
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 300'
+    - '[console] ei give %player_name% potion_light'
+  'potion_medic':
+    display_name: '&#ff3939З&#ff3c3cе&#ff3e3eл&#ff4141ь&#ff4444е &#ff4949М&#ff4b4bе&#ff4e4eд&#ff5151и&#ff5353к&#ff5656а'
+    slot: 23
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffСопротивление II &7(1:00)'
+    - ' &#ffaa00┃ &#5555ffРегенерация III &7(0:40)'
+    - ' &#ffaa00┃ &#ff5555Слабость &7(0:15)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55500Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 500'
+    - '[console] ei give %player_name% potion_medic'
+  'potion_magistr':
+    display_name: '&#9439ffЗ&#983bffе&#9d3dffл&#a140ffь&#a642ffе &#ae46ffМ&#b349ffа&#b74bffг&#bb4dffи&#c04fffс&#c452ffт&#c954ffр&#cd56ffа'
+    slot: 24
+    material: potion
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &#5555ffПрилив здоровья II &7(1:20)'
+    - ' &#ffaa00┃ &#5555ffПоглощение II &7(1:20)'
+    - ' &#ffaa00┃ &#ff5555Замедление &7(1:20)'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55850Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 850
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 850'
+    - '[console] ei give %player_name% potion_magistr'

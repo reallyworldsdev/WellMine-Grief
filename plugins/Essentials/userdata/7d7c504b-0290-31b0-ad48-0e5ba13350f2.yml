@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765550574730
+  login: 1765550560331
+money: '0'
+last-account-name: 123micro
+lastlocation:
+  world: a2c3396c-f21b-4650-b907-0553acf498d7
+  world-name: world
+  x: -89.5
+  y: 65.0
+  z: -39.5
+  yaw: 3.4965691566467285
+  pitch: 0.0
+logoutlocation:
+  world: 0623dd14-0360-4f53-a8be-867cfe82684e
+  world-name: spawn
+  x: -1.3000000119209312
+  y: 66.0
+  z: 12.729692183268453
+  yaw: -59.30816650390625
+  pitch: 9.95383071899414

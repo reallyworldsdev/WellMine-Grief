@@ -1,0 +1,55 @@
+location: spawn:0,547:67,188:-4,532
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fВ конце &9вайпа &fпервые &93 &fместа'
+    height: 0.3
+  - content: '&fПолучают приз от &9администрации!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7[&9⌚&7] &fТоп &910 &fигроков по &9Времени'
+    height: 0.3
+  - content: '&9➀ &7▏ &r%ajlb_lb_statistic_time_played_1_alltime_prefix% &7%ajlb_lb_statistic_time_played_1_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_1_alltime_value%'
+    height: 0.3
+  - content: '&9➁ &7▏ &r%ajlb_lb_statistic_time_played_2_alltime_prefix% &7%ajlb_lb_statistic_time_played_2_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_2_alltime_value%'
+    height: 0.3
+  - content: '&9➂ &7▏ &r%ajlb_lb_statistic_time_played_3_alltime_prefix% &7%ajlb_lb_statistic_time_played_3_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_3_alltime_value%'
+    height: 0.3
+  - content: '&9➃ &7▏ &r%ajlb_lb_statistic_time_played_4_alltime_prefix% &7%ajlb_lb_statistic_time_played_4_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_4_alltime_value%'
+    height: 0.3
+  - content: '&9➄ &7▏ &r%ajlb_lb_statistic_time_played_5_alltime_prefix% &7%ajlb_lb_statistic_time_played_5_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_5_alltime_value%'
+    height: 0.3
+  - content: '&9➅ &7▏ &r%ajlb_lb_statistic_time_played_6_alltime_prefix% &7%ajlb_lb_statistic_time_played_6_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_6_alltime_value%'
+    height: 0.3
+  - content: '&9➆ &7▏ &r%ajlb_lb_statistic_time_played_7_alltime_prefix% &7%ajlb_lb_statistic_time_played_7_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_7_alltime_value%'
+    height: 0.3
+  - content: '&9➇ &7▏ &r%ajlb_lb_statistic_time_played_8_alltime_prefix% &7%ajlb_lb_statistic_time_played_8_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_8_alltime_value%'
+    height: 0.3
+  - content: '&9➈ &7▏ &r%ajlb_lb_statistic_time_played_9_alltime_prefix% &7%ajlb_lb_statistic_time_played_9_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_9_alltime_value%'
+    height: 0.3
+  - content: '&9➉ &7▏ &r%ajlb_lb_statistic_time_played_10_alltime_prefix% &7%ajlb_lb_statistic_time_played_10_alltime_name%
+      &7▏ &9%ajlb_lb_statistic_time_played_10_alltime_value%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&9Ваша статистика:'
+    height: 0.3
+  - content: '&9%ajlb_position_statistic_time_played_alltime% &7▏ &r%vault_prefix%
+      &7%player_name% &7▏ &9%statistic_time_played%'
+    height: 0.3
+  actions: {}

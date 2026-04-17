@@ -1,0 +1,82 @@
+menu_title: '&0● Магазины'
+register_command: true
+open_command:
+- shop
+size: 45
+items:
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] generalMainMenu'
+  # Магазин.
+  'items':
+    display_name: '&#ffb000П&#ffb300о&#ffb600т&#ffb900а&#ffbd00й&#ffc000н&#ffc300а&#ffc600я &#ffcc00л&#ffd000а&#ffd300в&#ffd600к&#ffd900а'
+    slot: 20
+    material: gold_ingot
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Закончились расходники? не беда'
+    - ' &#ffaa00┃ &7В нашем магазине всегда в наличии все необходимое'
+    - ' &#ffaa00┃ &7Пополняй запасы быстро и выгодно в пару кликов'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopSecretshop'
+  'shopdonate':
+    display_name: '&#ffb000Д&#ffb200о&#ffb500н&#ffb700а&#ffb900т&#ffbb00е&#ffbe00р&#ffc000с&#ffc200к&#ffc500и&#ffc700й &#ffcb00м&#ffce00а&#ffd000г&#ffd200а&#ffd400з&#ffd700и&#ffd900н'
+    slot: 22
+    material: bell
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Магазин эксклюзивных серверных вещей'
+    - ' &#ffaa00┃ &7Только здесь редкие предметы, которых нет больше нигде'
+    - ' &#ffaa00┃ &7Пополняй коллекцию и выделяйся среди других игроков'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  'auc':
+    display_name: '&#ffb000А&#ffb700у&#ffbe00к&#ffc500ц&#ffcb00и&#ffd200о&#ffd900н'
+    slot: 24
+    material: item_frame
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Хочешь выгодно купить или продать ресурсы?'
+    - ' &#ffaa00┃ &7Заходи к нам здесь кипит настоящая торговля'
+    - ' &#ffaa00┃ &7Заключай сделки с другими игроками на лучших условиях'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[player] ah'

@@ -1,0 +1,66 @@
+name: §x§F§F§B§0§0§0Т§x§F§F§B§3§0§0о§x§F§F§B§7§0§0п§x§F§F§B§A§0§0о§x§F§F§B§E§0§0р
+  §x§F§F§C§5§0§0ф§x§F§F§C§8§0§0а§x§F§F§C§B§0§0р§x§F§F§C§F§0§0м§x§F§F§D§2§0§0и§x§F§F§D§6§0§0л§x§F§F§D§9§0§0ы
+glow: false
+lore:
+- ' §x§F§F§A§A§0§0┃ §7Эффективность X'
+- ' §x§F§F§A§A§0§0┃ §7Прочность III'
+- ' §x§F§F§A§A§0§0┃ §7Починка'
+material: NETHERITE_AXE
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 10
+  enchantment1:
+    enchantment: Mending
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

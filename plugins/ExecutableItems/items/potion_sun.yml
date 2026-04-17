@@ -1,0 +1,83 @@
+name: '&#ffa500З&#ffa900е&#ffad00л&#ffb000ь&#ffb400е &#ffbc00С&#ffc000о&#ffc400л&#ffc700н&#ffcb00ц&#ffcf00а'
+glow: false
+lore:
+- §r §x§f§f§a§a§0§0┃ §x§5§5§5§5§f§fСила II §7(2:30)
+- §r §x§f§f§a§a§0§0┃ §x§5§5§5§5§f§fСкорость II §7(2:30)
+- §r §x§f§f§a§a§0§0┃ §x§5§5§5§5§f§fОгнестойкость §7(8:00)
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Potion
+    type: STRING
+    value: minecraft:healing
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 3000
+      potionEffectType: INCREASE_DAMAGE
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    pEffect1:
+      isAmbient: false
+      duration: 3000
+      potionEffectType: SPEED
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    pEffect2:
+      isAmbient: false
+      duration: 9600
+      potionEffectType: FIRE_RESISTANCE
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+attributes: {}

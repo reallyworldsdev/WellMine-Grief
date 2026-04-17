@@ -1,0 +1,24 @@
+location: spawn:-24,007:66,000:86,776
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FCAE00А&#FCB300в&#FDB800т&#FDBD00о&#FDC200-&#FEC700Ш&#FECC00а&#FED100х&#FFD600т&#FFDB00а'
+    height: 0.2
+  - content: ''
+    height: 0.2
+  - content: '&fСледующая: &r%am_next_mine%'
+    height: 0.2
+  - content: ''
+    height: 0.2
+  - content: '&fОбновление через:'
+    height: 0.3
+  - content: '&e%am_time_mine% &fсек'
+    height: 0.3
+  - content: '#ICON: NETHERITE_PICKAXE'
+    height: 0.3
+  actions: {}

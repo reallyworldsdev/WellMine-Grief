@@ -1,0 +1,334 @@
+menu_title: '§0● Монетная лавка'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopSecretshop'
+  # Магазин.
+  'golden_apple':
+    display_name: '&#ffb000З&#ffb300о&#ffb600л&#ffb900о&#ffbd00т&#ffc000о&#ffc300е &#ffc900я&#ffcc00б&#ffd000л&#ffd300о&#ffd600к&#ffd900о'
+    slot: 12
+    material: golden_apple
+    amount: 16
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5525.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 25000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 25000'
+    - '[console] give %player_name% golden_apple 16'
+  'totem_of_undying':
+    display_name: '&#ffb000Т&#ffb300о&#ffb500т&#ffb800е&#ffbb00м &#ffc000б&#ffc300е&#ffc600с&#ffc900с&#ffcb00м&#ffce00е&#ffd100р&#ffd400т&#ffd600и&#ffd900я'
+    slot: 13
+    material: totem_of_undying
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5575.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 75000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 75000'
+    - '[console] give %player_name% totem_of_undying 1'
+  'ender_pearl':
+    display_name: '&#ffb000Э&#ffb400н&#ffb700д&#ffbb00е&#ffbf00р&#ffc300-&#ffc600ж&#ffca00е&#ffce00м&#ffd200ч&#ffd500у&#ffd900г'
+    slot: 14
+    material: ender_pearl
+    amount: 16
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff557.500⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 7500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 7500'
+    - '[console] give %player_name% ender_pearl 16'
+  'chorus_fruit':
+    display_name: '&#ffb000П&#ffb400л&#ffb800о&#ffbc00д &#ffc500х&#ffc900о&#ffcd00р&#ffd100у&#ffd500с&#ffd900а'
+    slot: 19
+    material: chorus_fruit
+    amount: 64
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff559.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 9000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 9000'
+    - '[console] give %player_name% chorus_fruit 64'
+  'experience_bottle':
+    display_name: '&#ffb000П&#ffb300у&#ffb700з&#ffba00ы&#ffbe00р&#ffc100ё&#ffc500к &#ffcb00о&#ffcf00п&#ffd200ы&#ffd600т&#ffd900а'
+    slot: 20
+    material: experience_bottle
+    amount: 64
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5516.500⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 16500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 16500'
+    - '[console] give %player_name% experience_bottle 64'
+  'cooked_beef':
+    display_name: '&#ffb000С&#ffba00т&#ffc500е&#ffcf00й&#ffd900к'
+    slot: 21
+    material: cooked_beef
+    amount: 64
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff557.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 7000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 7000'
+    - '[console] give %player_name% cooked_beef 64'
+  'shulker_box':
+    display_name: '&#ffb000Ш&#ffb300а&#ffb600л&#ffb900к&#ffbc00е&#ffbf00р&#ffc200о&#ffc500в&#ffc700ы&#ffca00й &#ffd000я&#ffd300щ&#ffd600и&#ffd900к'
+    slot: 22
+    material: shulker_box
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5545.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 45000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 45000'
+    - '[console] give %player_name% shulker_box 1'
+  'cobweb':
+    display_name: '&#ffb000П&#ffb700а&#ffbe00у&#ffc500т&#ffcb00и&#ffd200н&#ffd900а'
+    slot: 23
+    material: cobweb
+    amount: 16
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5517.500⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 17500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 17500'
+    - '[console] give %player_name% cobweb 16'
+  'gunpowder':
+    display_name: '&#ffb000П&#ffba00о&#ffc500р&#ffcf00о&#ffd900х'
+    slot: 24
+    material: gunpowder
+    amount: 32
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5560.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 60000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 60000'
+    - '[console] give %player_name% gunpowder 32'
+  'oak_log':
+    display_name: '&#ffb000Д&#ffb300у&#ffb600б&#ffb900о&#ffbd00в&#ffc000о&#ffc300е &#ffc900б&#ffcc00р&#ffd000е&#ffd300в&#ffd600н&#ffd900о'
+    slot: 25
+    material: oak_log
+    amount: 64
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff554.500⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 54500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 54500'
+    - '[console] give %player_name% oak_log 64'
+  'shield':
+    display_name: '&#ffb000Щ&#ffc500и&#ffd900т'
+    slot: 30
+    material: shield
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5512.500⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 12500
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 12500'
+    - '[console] give %player_name% shield 1'
+  'arrow':
+    display_name: '&#ffb000С&#ffb800т&#ffc000р&#ffc900е&#ffd100л&#ffd900ы'
+    slot: 31
+    material: arrow
+    amount: 64
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff556.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 6000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 6000'
+    - '[console] give %player_name% arrow 64'
+  'ender_chest':
+    display_name: '&#ffb000Э&#ffb400н&#ffb700д&#ffbb00е&#ffbf00р&#ffc300-&#ffc600с&#ffca00у&#ffce00н&#ffd200д&#ffd500у&#ffd900к'
+    slot: 32
+    material: ender_chest
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#ffff5511.000⛂'
+    - ' &#ffaa00┃ &7Ваш баланс: &#ffff55%vault_eco_balance%⛂'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: 11000
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7монет'
+    click_commands:
+    - '[console] eco take %player_name% 11000'
+    - '[console] give %player_name% ender_chest 1'
+    

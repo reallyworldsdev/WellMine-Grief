@@ -1,0 +1,156 @@
+id: bcases:key_list
+provider: bcases:key_list
+type: CHEST
+size: 45
+title: "&0Таинственный сундук"
+
+data-slots: 0-17,18-26,27-35
+
+
+defaults:
+  lore: &lore
+    - '&fПолучен: &7{issue_date} '
+    - ''
+    - '§a➠ Нажмите, чтобы открыть'
+
+expired:
+  display_name: '&cЭтот ключ просрочен :('
+  material: barrier
+  static: true
+
+crates:
+  donate:
+    display_name: '&aКейс с бесплатным донатом'
+    lore: *lore
+    material: "TRIPWIRE_HOOK"
+    ticking: true
+    tick-speed: 20
+    on_click:
+      requirements:
+        - check: '{playing} == true'
+          commands:
+            - '[MESSAGE] &cКто-то уже открывает этот кейс!'
+            - '[CLOSE]'
+          deny_commands:
+            - '[TAKE_THIS_KEY]'
+            - '[PLAY] wheelx donate'
+            - '[CLOSE]'
+  donatebuy:
+    display_name: '&6Кейс с донатом'
+    lore: *lore
+    material: "TRIPWIRE_HOOK"
+    ticking: true
+    tick-speed: 20
+    on_click:
+      requirements:
+        - check: '{playing} == true'
+          commands:
+            - '[MESSAGE] &cКто-то уже открывает этот кейс!'
+            - '[CLOSE]'
+          deny_commands:
+            - '[TAKE_THIS_KEY]'
+            - '[PLAY] wheelx donatebuy'
+            - '[CLOSE]'
+  rubles:
+    display_name: '&aКейс с рублями'
+    lore: *lore
+    material: "TRIPWIRE_HOOK"
+    ticking: true
+    tick-speed: 20
+    on_click:
+      requirements:
+        - check: '{playing} == true'
+          commands:
+            - '[MESSAGE] &cКто-то уже открывает этот кейс!'
+            - '[CLOSE]'
+          deny_commands:
+            - '[TAKE_THIS_KEY]'
+            - '[PLAY] wheelx rubles'
+            - '[CLOSE]'
+  money:
+    display_name: '&6Кейс с монетками'
+    lore: *lore
+    material: "TRIPWIRE_HOOK"
+    ticking: true
+    tick-speed: 20
+    on_click:
+      requirements:
+        - check: '{playing} == true'
+          commands:
+            - '[MESSAGE] &cКто-то уже открывает этот кейс!'
+            - '[CLOSE]'
+          deny_commands:
+            - '[TAKE_THIS_KEY]'
+            - '[PLAY] wheelx money'
+            - '[CLOSE]'
+  aorn:
+    display_name: '&aКейс Всё или Ничего'
+    lore: *lore
+    material: "TRIPWIRE_HOOK"
+    ticking: true
+    tick-speed: 20
+    on_click:
+      requirements:
+        - check: '{playing} == true'
+          commands:
+            - '[MESSAGE] &cКто-то уже открывает этот кейс!'
+            - '[CLOSE]'
+          deny_commands:
+            - '[TAKE_THIS_KEY]'
+            - '[PLAY] wheelx aorn'
+            - '[CLOSE]'
+
+items:
+  case:
+    material: bell
+    all_flags: true
+    display_name: '§x§F§F§B§0§0§0Д§x§F§F§B§5§0§0о§x§F§F§B§9§0§0н§x§F§F§B§E§0§0а§x§F§F§C§2§0§0т§x§F§F§C§7§0§0-§x§F§F§C§B§0§0М§x§F§F§D§0§0§0е§x§F§F§D§4§0§0н§x§F§F§D§9§0§0ю'
+    lore:
+    - ''    
+    - '&7Тут можно приобрести кейсы '
+    - ''
+    - '§a➠ Нажмите, чтобы открыть'
+    slot: 40
+    static: false
+    on_click:
+      commands:
+        - '[message] §x§F§C§A§E§0§0&lɢ§x§F§C§B§4§0§0&lʀ§x§F§D§B§B§0§0&lɪ§x§F§D§C§1§0§0&lᴇ§x§F§E§C§8§0§0&lꜰ§x§F§E§C§E§0§0&lʏ§x§F§F§D§5§0§0&lᴏ§x§F§F§D§B§0§0&lᴜ
+    §8» §fСайт для пожертвования - §x§F§C§A§E§0§0shop.GriefYou.pw'
+        - '[close]'
+  panel:
+    material: BLACK_STAINED_GLASS_PANE
+    all_flags: true
+    display_name: ''
+    slots:
+     - 36-39
+     - 41-44
+    static: false
+
+
+animations:
+  left_to_right:
+    - tick: 0
+      opcodes:
+        - cfb: 10-16,19-25,28-34,37-43
+        - sie: air 10-16,19-25,28-34,37-43
+    - tick: 1
+      opcodes:
+        - rm: 16,25,34,43
+    - tick: 2
+      opcodes:
+        - rm: 15,24,33,42
+    - tick: 3
+      opcodes:
+        - rm: 14,23,32,41
+    - tick: 4
+      opcodes:
+        - rm: 13,22,31,40
+    - tick: 5
+      opcodes:
+        - rm: 12,21,30,39
+    - tick: 6
+      opcodes:
+        - rm: 11,20,29,38
+    - tick: 7
+      opcodes:
+        - rm: 10,19,28,37

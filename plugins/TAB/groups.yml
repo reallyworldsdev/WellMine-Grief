@@ -1,0 +1,18 @@
+_DEFAULT_:
+  customtabname: '%player_name%%vault_suffix%'
+  tabprefix: '&c◆ &7▏ &f%vault_prefix% &7' # &c●&f
+  tagprefix: '&c◆ &7▏ &f%vault_prefix% &7'
+  tabsuffix: ' '
+  tagsuffix: ' '
+admin+:
+  customtabname: '%player_name%'
+  tabprefix: '&c◆ &7▏ %vault_prefix%%vault_suffix% &7'
+  tagprefix: '&c◆ &7▏ %vault_prefix%%vault_suffix% &7'
+  tabsuffix: ' '
+  tagsuffix: ' '
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

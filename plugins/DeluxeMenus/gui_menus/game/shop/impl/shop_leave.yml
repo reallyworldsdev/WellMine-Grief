@@ -1,0 +1,55 @@
+menu_title: '§0● Уникальный предмет'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Магазин.
+  'leave':
+    display_name: '&#ffb000Л&#ffb700и&#ffbe00в&#ffc500а&#ffcb00л&#ffd200к&#ffd900а'
+    slot: 22
+    material: clay_ball
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Секретное спасение в любой переделке'
+    - ' &#ffaa00┃ &7Эта плюшка мгновенно вытащит вас даже'
+    - ' &#ffaa00┃ &7Из самых хитрых ловушек проверено игроками'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff551249Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1249
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 1249'
+    - '[console] leaver give %player_name% 1'

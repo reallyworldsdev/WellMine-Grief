@@ -1,0 +1,43 @@
+options:
+  # recharge is specified in seconds!
+  recharge: 1
+  # the height to which the player will jump (in blocks)
+  height: 100
+  # remove 1 leaver after use
+  remove: true
+  # type of leaver (TELEPORT/JUMP)
+  type: TELEPORT
+  # get fall damage on fall after user leaver
+  fall_damage: false
+  # work only on hand (HAND/OFF_HAND)
+  work_on_hand: HAND
+
+  # leaver item
+  leaver:
+    material: CLAY_BALL
+    data: 0
+
+    name: "&x&F&C&A&E&0&0Л&x&F&D&B&6&0&0и&x&F&D&B&D&0&0в&x&F&E&C&5&0&0а&x&F&E&C&C&0&0л&x&F&F&D&4&0&0к&x&F&F&D&B&0&0а"
+    lore:
+    - "&r &x&F&C&A&E&0&0┃ &7Секретное спасение в любой переделке"
+    - "&r &x&F&C&A&E&0&0┃ &7Эта плюшка мгновенно вытащит вас даже"
+    - "&r &x&F&C&A&E&0&0┃ &7Из самых хитрых ловушек проверено игроками"
+
+  # EFFECT-POWER TIME(in seconds)
+  effects:
+    - SPEED-2 60
+
+message:
+  enabled: true
+  messages:
+    use: "§x§F§C§A§E§0§0&lɢ§x§F§C§B§4§0§0&lʀ§x§F§D§B§B§0§0&lɪ§x§F§D§C§1§0§0&lᴇ§x§F§E§C§8§0§0&lꜰ§x§F§E§C§E§0§0&lʏ§x§F§F§D§5§0§0&lᴏ§x§F§F§D§B§0§0&lᴜ
+    §8» &fВы успешно &aиспользовали &fливалку!"
+    recharge: ""
+    recharged: ""
+
+    no_permissions: ""
+    not_found: ""
+    not_an_integer: ""
+
+    inventory_is_full: ""
+    give: ""

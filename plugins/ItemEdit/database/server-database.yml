@@ -1,0 +1,252 @@
+pokoy:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F9F9F9","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F2F2F2","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E5E5E5","text":"П"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DFDFDF","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D8D8D8","text":"к"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2D2D2","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CBCBCB","text":"я"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Прилив здоровья "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PQU6DQBhGf40mFb2FezNQwXRhTCM6HdIZFCgwEzdtmZaBoTYUVDyDB/EAnsCVay/jUlm6e1/et3kGgAEnYdlqfVc/rpSWBhg9bWXdKLk7gkEjX5q2ljsDAPYGcBjPdSvhQ3YeEmmOstTTy444/Y5CpH1SbC/IJu4W18QhVe8nY2fajf597Wae2JoPvVxs7ttFFaPpMNByEpjLavbE3FtNI2rz17jkxQz5mNs8YjnDQovqxuRJkFNLKGZRJCJu+e7Y5JaoGCaWKNaWwEwxd/3MCq8UmNg0oeci9EarFF0CHMM+yfqQg5+v7PfqAX++n6o39X3Wx/0BFoOtWAoBAAA=
+      PublicBukkitValues:
+        wmitems:wmrune: pokoy
+pingvi:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#006EFF","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0074FF","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0079FF","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0085FF","text":"П"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#008AFF","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0090FF","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0095FF","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#009BFF","text":"в"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A1FF","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00A6FF","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00ACFF","text":"а"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Спешка "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PPVKDQBzF/zrqRPQU1hZ8CE6KFI4wZpnsYgJhs3QJWUxgwQyByHIIS0t7Z7yDledwxpO4pdX7+L3maQAaXIZFK8Rj/ZxtBddAU27H62bL9+cwaHjXtDXfawBwNIDTeClaDp9c+nqy2OjrhS9SiRyVo1AXAcp3t6iK5eoeOahUfHznTOTw39ZultQWzPI3STVtV2WsT6yZ4OOZkZbzQ5IzM3CxDOjcJG5cMhN3+MGzAhoL0mMbU9wpbrA+vUkoyVnp2YR6ltI+cAvVk4JFTwaL2AuqjGE2HY0ALuAYrdWBkzPxln1f+/X71+tH+HP1C/AHKy9gPwIBAAA=
+      PublicBukkitValues:
+        wmitems:wmrune: winter
+sacura:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F827B0","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F928B5","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA28BA","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB29C3","text":"С"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC2AC8","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD2ACD","text":"к"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FD2BD1","text":"у"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FE2BD6","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF2CDB","text":"ы"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Регенерация "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PPVLCQBiGPx2dwchhFhPiUFg4JgObYYkJa362g7Dkh11kQkJ+egsLSz2B3sAT2GntDbyARzCl3fvM8zSvAqBAf74phbjN79ep4Aoo3drxvEj5/gx6Ba+LMud7BQCOenDqLUTJ4Z03FmJBglaBJaIG6x3TORI2znaXeOs1yxusY9n5ybU+bUb/2mGx8IciVK2EbZ1yKT00VV3BJ+4gkncHNibI9kkV0hjNpCfJhTkghqkxGle24abMN7WZEbWEhnXYuoJljkaMuGbGpmLjULWpoxKfIEbNmmRORVqWkNQarQN0BXAOx3jVHTnpf76WDz/4+/nj8ffr5ekN4A8QjFbCCgEAAA==
+      PublicBukkitValues:
+        wmitems:wmrune: sakura
+rune1:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0064FF","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0568FF","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0A6DFF","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1375FF","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1879FF","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1D7EFF","text":"х"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2182FF","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2686FF","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2B8AFF","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#308FFF","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3493FF","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3997FF","text":"а"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Регенерация "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PTU7CQBiGP40mWD3MtNAaFsQQRZiGGSwMpZ0dP0Pa6ddKSkto7+LCRC9gjJdwxSVcega7dPe8ed7NYwAYcDNLSsSn/HkbozLAaGin8iJW+ytoFepYlLnaGwBw1oJLf4mlgk9VuUQGEdkELq4r6jRbzAhOqN7d0syvVvfUoWnjR31nXHX/fe1iubAxbLuRzLxylfpk3J6iGk3NdTo/8KHUvE46XDCb677JUolh7UdM01qKkHBrfuQ1pvLB63BLJlxHyLRHmPCRicRimpmTxYCEDcvU1VI8xrxyu9uA9ACu4ZxumpCLj9Pp6+112Hu5ex98//xmAH+BXHigCgEAAA==
+      PublicBukkitValues:
+        wmitems:wmrune: arch
+rune2:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF6E","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0DFF75","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1AFF7D","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#34FF8C","text":"Ф"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#42FF93","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4FFF9A","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5CFFA2","text":"т"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#69FFA9","text":"у"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#76FFB1","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#83FFB8","text":"ы"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Везение "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Спешка "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu07DMBhGfxBIJbAys7PgJk1QBwYgIbVVOzR3e+vFVZPapUqTQiLegMfgFdh4OTKynaPzLZ8BYMBVtG2Ueq3e1oWSBhg97WVVF/JwAYNaftRNJQ8GAJwM4Dydq0bCj2wJEvkGrXKili12eo8jpAJc7u/xLm0Xz9jBuu+TR2fajv9t7Xqe2YpbZCN2s2ahUzS1QiUn4XCpk6PQL4rGns1j3AUuUcL3RqwMC1rOkNDeiHdJxzPaiThBzPVM2nnv1EwVK7kVxKmmPtsyTU3mc4tnpAj83iIyXufoAeASTvGqP3JWfVs3xy/X+f28fqJ3zi3AH1ndoQEKAQAA
+      PublicBukkitValues:
+        wmitems:wmrune: fort
+rune4:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF7C00","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8605","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF900A","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA413","text":"М"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAE18","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA212","text":"д"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF950C","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8906","text":"с"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF7C00","text":"а"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP1KDQBxGfzo6E9HaCzhjzQ4DTgoLJ5BkMbuYBPmzHSFLYFlihoBmuYCdh/AM3sFLWNp4Bhsp7b437zWfBqDBxbJspXyon7JCcg20fu143RR8fwaDhh+atuZ7DQCOBnAaJLLl8MGVq7Mo19eRK1OFrZ79pS49LHY3eBuo1QhbuOr99M6aqeG/1myS0JSx4eZsO29XVaDPjIXk0wVKq8fnWOCD55cmtYkRi3HJfFdQO1VkMs6ZPe9IhRULHUS6jWK+g6i9UbRLERG0IiIoyCRGNCSdFzovJCQq9qUgI3eYRfotwDkc43V/5OTr+z27uryXr9fJ55vz+wPwB0v7zs0KAQAA
+      PublicBukkitValues:
+        wmitems:wmrune: midas
+rune3:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8000FF","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#860DFF","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8D1AFF","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9A34FF","text":"Ч"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A041FF","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A64DFF","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AD5AFF","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B367FF","text":"д"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BA74FF","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C081FF","text":"я"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Прилив здоровья "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP1KDQBxGfzo6E9HCG9hbwTLgpLBIRM0ysEggLLtd/mwCZIkZAtHlDp7Bsbe01AN5ARsbKe2+N+81nwagwVm0bqR8qB6XuRQaaN3aiqrOxe4EerV4rptK7DQAOOjBcTKVjYAPoVydp5m+SF05V9juOI50GeBie4U3iZrdYBuXnR8NbE/1/7VWPaWWZKab8U3YzMpE98yxFKOxMS8nexaHFmmZ4TuhQZCPAkpKXpKcIYYCZyg5xYjFuPXpLWLUlawYPDFEMkKTjN+HJmvvClKsLN8Zrkm7UjwmeRC5/WWqXwOcwiFedEeO3t9+v18+/YuvS+K9Ts5/AP4AdHCROQoBAAA=
+      PublicBukkitValues:
+        wmitems:wmrune: char
+rune5:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0309","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0513","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0A26","text":"П"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0D2F","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0F39","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF1242","text":"п"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0F39","text":"я"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0D2F","text":"т"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0A26","text":"с"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF081C","text":"т"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0513","text":"в"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0309","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"я"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        "},{"italic":false,"color":"green","text":"применении "},{"italic":false,"color":"gray","text":"во
+        второй руке:"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"┃
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Даёт
+        эффект Сила "},{"italic":false,"color":"green","text":"III"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"┃
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Даёт
+        эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"┃
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Даёт
+        эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/+NiYOBi4AnOLs3JCSjKT8vMSeVi4AKyClKLSjJTizkZOEpSK0pKi1KLuRgYGBg5GFjDEnNKUxm2pFZ6GURFZBikRHjlJFd6mgH5IcEGOf6eWQXmnnlhlUnOnmaeuUB5D0czn0pLJLWmJYnhpjmRxl4ZUXmBpUm5YQY+xkE5qR5Bhsm5oWWRWYGGUSHphlHhQdmRIW4Z/i5u2b5ZngaR4UGZflWuVZFZIJxc7luVke0X7pfll+uVE2kUaOrv7mrsGxKVCaSrotzDsvyMQqsiQ5xy/UPSK/wqvSzTIgxsGRi4GZg8U4AeYTH963j8x3wfrk0vLh/rvxcVx8AAADukB4wKAQAA
+      PublicBukkitValues:
+        wmitems:wmrune: prepa
+summer:
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB000","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB800","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC000","text":"р
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC900","text":"Л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFD100","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFD900","text":"то"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"При "},{"italic":false,"color":"green","text":"применении
+        "},{"italic":false,"color":"gray","text":"во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Сила "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Скорость "},{"italic":false,"color":"green","text":"II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Огнестойкость "},{"italic":false,"color":"green","text":"I"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        ┃ "},{"italic":false,"color":"gray","text":"Дает эффект Исцеление "},{"italic":false,"color":"green","text":"I
+        "},{"italic":true,"color":"gray","text":"(SHIFT + ПКМ)"}],"text":""}'
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx0dI9r5IkAAJ4VFTEiyGFiFhbAUzuSykctukiGggdLS1tbKygfwaXwTO7e0+86c03wKgAKXQVFzfl9u1xlnCihy7VhZZWx/Dp2KHaq6ZHsFAI46cBrNec3gmzWOmsSpuoodvmyQJZkEKsco312jTdQsBshCQvpJ35o2vX+tWc1nJqddJ002D/VCROq063M28bWlCJ89Yuuu8At3jMwkpxrNQ4OSEffaW4GHowKPwxdXD41EUJ22YZsQn2PypFHhZwnpH/CQah5JZWfreGYbLrENHDi9dazeAFzAMVrJIyevv4+Dj5879v4Zfb2dXUn1B5FgfFAKAQAA
+      PublicBukkitValues:
+        wmitems:wmrune: summer

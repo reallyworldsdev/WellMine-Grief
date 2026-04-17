@@ -1,0 +1,85 @@
+menu_title: '&0● Бесплатные награды'
+register_command: true
+open_command:
+- reward
+- getcase
+- free
+- rub
+size: 45
+items:
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Главное.
+  '1':
+    material: chest_minecart
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    priority: 2
+    display_name: '&#ffb000Б&#ffb200е&#ffb400с&#ffb600п&#ffb800л&#ffba00а&#ffbc00т&#ffbe00н&#ffc000а&#ffc200я &#ffc700н&#ffc900а&#ffcb00г&#ffcd00р&#ffcf00а&#ffd100д&#ffd300а &#ffd700№&#ffd9001'
+    slot: 11
+    material: chest_minecart
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Награда'
+    - ' &#ffaa00┃ &7Бесплатный &#55ff55донат-кейс &71 шт'
+    - ''
+    - ' &#ffaa00┃ &7Задание'
+    - ' &#ffaa00┃ &7Отыграть на сервере &#55ff5515 &7минут'
+    - ''
+    - ' &#ffaa00┃ &7Вы отыграли: &#55ff55%statistic_minutes_played%&7/&#55ff5515 &7мин'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55забрать &7награду'
+    click_requirement:
+      requirements:
+        perm:
+         type: '>='
+         input: '%statistic_minutes_played%'
+         output: 15
+      deny_commands:
+      - '[message] &6Подарки &7» &cВы не наиграли 15 минут.'
+      - '[close]'
+    click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set menu.reward.free1'
+      - '[console] p give %player_name% 1300'
+      - '[console] case give %player_name% rilik 1'
+      - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &fВы &aуспешно&f получили награду.'
+      - '[close]'
+  '1_yes':
+    material: MINECART
+    priority: 1
+    hide_enchantments: true
+    display_name: '&#ffb000Б&#ffb200е&#ffb400с&#ffb600п&#ffb800л&#ffba00а&#ffbc00т&#ffbe00н&#ffc000а&#ffc200я &#ffc700н&#ffc900а&#ffcb00г&#ffcd00р&#ffcf00а&#ffd100д&#ffd300а &#ffd700№&#ffd9001'
+    slot: 11
+    material: chest_minecart
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7Награда'
+    - ' &#ffaa00┃ &7Бесплатный &#55ff55донат-кейс &71 шт'
+    - ''
+    - ' &#ffaa00┃ &7Задание'
+    - ' &#ffaa00┃ &7Отыграть на сервере &#55ff5515 &7минут'
+    - ''
+    - ' &#ffaa00┃ &7Вы отыграли: &#55ff5520&7/&#55ff5515 &7мин'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55забрать &7награду'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'menu.reward.free1' 
+    click_commands:
+      - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &fВы &cуже получали&f эту награду.'
+      - '[close]'

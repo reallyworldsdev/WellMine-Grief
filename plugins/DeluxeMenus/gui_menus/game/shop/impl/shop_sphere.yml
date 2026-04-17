@@ -1,0 +1,194 @@
+menu_title: '§0● Уникальные шары'
+size: 45
+items:  
+  # Заполнители.
+  'black_pane':
+    material: black_stained_glass_pane
+    display_name: '&0'
+    slots:
+    - 0
+    - 8-9
+    - 17-18
+    - 26-27
+    - 35-36
+    - 44
+  # Вернуться.
+  'back':
+    material: spectral_arrow
+    slot: 43
+    display_name: '&#ffb000В&#ffb300е&#ffb600р&#ffb900н&#ffbc00у&#ffbf00т&#ffc200ь&#ffc500с&#ffc700я &#ffcd00н&#ffd000а&#ffd300з&#ffd600а&#ffd900д'
+    lore:
+    - '&7Нажмите, что-бы вернутся'
+    - '&7в обратное меню.'
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Магазин.
+  'season':
+    display_name: '&#ffb000С&#ffb300е&#ffb700з&#ffba00о&#ffbe00н&#ffc100н&#ffc500ы&#ffc800е &#ffcf00ш&#ffd200а&#ffd600р&#ffd900ы'
+    slot: 37
+    material: map
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7В данном меню находятся'
+    - ' &#ffaa00┃ &7Уникальные сезонные шары привилегий'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55открыть &7данное меню'
+    hide_attributes: true
+    click_commands:
+    - '[openguimenu] gameShopDonateshopImpl'
+  # Магазин.
+  'donsphere_white':
+    display_name: '&#ffffffШ&#f9f9f9а&#f2f2f2р &#e5e5e5П&#dfdfdfо&#d8d8d8к&#d2d2d2о&#cbcbcbя'
+    slot: 24
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFlMTM5YzVkYjU0OGY5YTNhNGZlZmE1YWRhM2ZiN2M0ZTY2ODA1Y2ZmNGI2Zjg2ZGNiNDgwNjJkZGI5MWM4ZSJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Сила &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Прилив здоровья &#55ff55II'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55219₽'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_commands:
+    - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7Привет &#FCAE00%player_name%&7, данный шар можно купить'
+    - '[message]  &7только на нашем сайте &#FCAE00s&#FCB100h&#FCB400o&#FDB700p&#FDBA00.&#FDBD00G&#FDC000r&#FDC300i&#FEC600e&#FEC900f&#FECC00Y&#FECF00o&#FED200u&#FFD500.&#FFD800p&#FFDB00w'
+  'donsphere_red':
+    display_name: '&#ff0000Ш&#ff0309а&#ff0513р &#ff0a26П&#ff0d2fр&#ff0f39е&#ff1242п&#ff0f39я&#ff0d2fт&#ff0a26с&#ff081cт&#ff0513в&#ff0309и&#ff0000я'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ1ZTg1ZWRkYTFhODFkMjI0YWRiNzEzYjEzYjcwMzhkNWNjNmJlY2Q5OGE3MTZiOGEzZGVjN2UzYTBmOTgxNyJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Сила &#55ff55III'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff55249₽'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_commands:
+    - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7Привет &#FCAE00%player_name%&7, данный шар можно купить'
+    - '[message]  &7только на нашем сайте &#FCAE00s&#FCB100h&#FCB400o&#FDB700p&#FDBA00.&#FDBD00G&#FDC000r&#FDC300i&#FEC600e&#FEC900f&#FECC00Y&#FECF00o&#FED200u&#FFD500.&#FFD800p&#FFDB00w'
+  # Шары.
+  'sphere_blue':
+    display_name: '&#1375ffШар А&#1879ffр&#1d7effх&#2182ffа&#2686ffн&#2b8affг&#308fffе&#3493ffл&#3997ffа'
+    slot: 20
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZjNzk4NTM5NjA1MmZlYzVhMjIzZTY0N2UxNzlmZDQ4N2ZkNjhlMjQ0MTVlMTk2MjM1OWE0YTk2ZmJjZTFiNyJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Сила &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Регенерация &#55ff55I'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552199Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2199
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2199'
+    - '[console] items give %player_name% sphere_blue'
+  'sphere_green':
+    display_name: '&#1aff7dШар &#34ff8cФ&#42ff93о&#4fff9aр&#5cffa2т&#69ffa9у&#76ffb1н&#83ffb8ы'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlMTE5YTIzODJlZGE4NjRiMjQ0ZmE4YzUzYWMzZTU0NDE2MzEwM2VlNjY3OTVmMGNkNmM2NGY3YWJiOGNmMSJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Везение &#55ff55II'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552499Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2499
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2499'
+    - '[console] items give %player_name% sphere_green'
+  'sphere_purple':
+    display_name: '&#8000ffШ&#860dffа&#8d1affр &#9a34ffЧ&#a041ffа&#a64dffр&#ad5affо&#b367ffд&#ba74ffе&#c081ffя'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NzY1MDQ1N2M2OWNmZmNiY2Y2ODBlZWI2YTIzMWE2YWJlYjAwY2NhNWVhZGQ3YzFjNjg5MDBkNzgyZTNiOSJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Сила &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ' &#ffaa00┃ &7Дает эффект Прилив здоровья &#55ff55I'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552999Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2999
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2999'
+    - '[console] items give %player_name% sphere_purple'
+  'sphere_yellow':
+    display_name: '&#ff7c00Ш&#ff8605а&#ff900aр &#ffa413М&#ffae18и&#ffa212д&#ff950cа&#ff8906с&#ff7c00а'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIxOTk5NDM3YjFkZTJjNDcyMGFhZDQzMmIyZWE1MzgyZTE1NDgyNzc1MjNmMjViMGY1NWMzOWEwMWMyYTljMCJ9fX0=
+    lore:
+    - '&8sʜᴏᴘ.ɢʀɪᴇꜰʏᴏᴜ.ᴘᴡ'
+    - ''
+    - ' &#ffaa00┃ &7При &#55ff55применении &7во второй руке:'
+    - ' &#ffaa00┃ &7Дает эффект Сила &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Скорость &#55ff55II'
+    - ' &#ffaa00┃ &7Дает эффект Огнестойкость &#55ff55I'
+    - ''
+    - ' &#ffaa00┃ &7Цена: &#55ff552799Ⓟ'
+    - ' &#ffaa00┃ &7Ваш баланс: &#55ff55%playerpoints_points%Ⓟ'
+    - ''
+    - '&#55ff55➠ &7Нажмите, чтобы &#55ff55купить &7данный предмет'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 2799
+          deny_commands:
+          - '[message] &#FCAE00&lɢ&#FCB400&lʀ&#FDBB00&lɪ&#FDC100&lᴇ&#FEC800&lꜰ&#FECE00&lʏ&#FFD500&lᴏ&#FFDB00&lᴜ &8» &7У вас &cнедостаточно &7рублей'
+    click_commands:
+    - '[console] points take %player_name% 2799'
+    - '[console] items give %player_name% sphere_yellow'
