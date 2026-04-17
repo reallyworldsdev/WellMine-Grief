@@ -1,0 +1,19 @@
+id: '12'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 8d613d6c-7feb-42f3-9f82-f7516675370b
+world: spawn
+location:
+  x: 18.30027229538642
+  y: 63.0
+  z: 76.62017077118244
+  yaw: -269.78223
+  pitch: -5.1000123
+type: villager
+hologram:
+  lines:
+  - '&#fcae00М&#fdb600а&#fdbd00г&#fec500а&#fecc00з&#ffd400и&#ffdb00н'
+  - '&7Продам дон. вещи'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcERvbmF0ZXNob3BJbXBsICVwbGF5ZXJfbmFtZSU=;1000;ANY_CLICK;0

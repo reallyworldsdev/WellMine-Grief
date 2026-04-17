@@ -1,0 +1,18 @@
+id: '8'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: ed6574d2-62ec-4497-b133-da98cab7318f
+world: spawn
+location:
+  x: -66.41105159018676
+  y: 63.0
+  z: -38.41677733120607
+  yaw: -359.63025
+  pitch: -1.3499182
+type: villager
+hologram:
+  lines:
+  - '&#fcae00П&#fcb100е&#fcb400ч&#fdb700к&#fdba00и &#fdbd00и &#fdc000з&#fdc300е&#fec600л&#fec900ь&#fecc00е&#fecf00в&#fed200а&#ffd500р&#ffd800к&#ffdb00и'
+  - '&7Находится в стадии разработки..'
+actions: []

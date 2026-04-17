@@ -1,0 +1,20 @@
+id: '6'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: fa85ab31-e844-46eb-b418-e1d5e39aec49
+world: spawn
+location:
+  x: -56.58059043532176
+  y: 63.0
+  z: -18.496040826515884
+  yaw: -179.77948
+  pitch: -0.29998875
+type: villager
+hologram:
+  lines:
+  - '&#fcae00Р&#fcb100а&#fcb400с&#fdb800с&#fdbb00а&#fdbe00д&#fdc100н&#fec500и&#fec800к&#fecb00и
+    &#fece00и &#fed100я&#ffd500й&#ffd800ц&#ffdb00а'
+  - '&7Яйца призыва многих мобов'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfc3Bhd25lciAlcGxheWVyX25hbWUl;1000;ANY_CLICK;0

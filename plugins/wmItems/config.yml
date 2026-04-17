@@ -1,0 +1,207 @@
+messages:
+  noPermission: §cУ вас недостаточно прав!
+  usageCommand: '§eПравильное использование: /scitems <give|reload>'
+  playerOffline: §cИгрок оффлайн
+  successGive: §x§F§C§A§E§0§0&lɢ§x§F§C§B§4§0§0&lʀ§x§F§D§B§B§0§0&lɪ§x§F§D§C§1§0§0&lᴇ§x§F§E§C§8§0§0&lꜰ§x§F§E§C§E§0§0&lʏ§x§F§F§D§5§0§0&lᴏ§x§F§F§D§B§0§0&lᴜ
+    §8» §7Вы §aуспешно §7купили предмет
+  notFoundItem: §cПредмет не был найден!
+  reloadSuccess: §aКонфигурация успешно перезагружена!
+  inventoryFull: §cУ игрока полный инвентарь, выдача остановлена!
+  actionBarCooldown: §eПожалуйста подождите {time} сек.
+items:
+  sphere_white:
+    display: §x§F§F§F§F§F§FШ§x§F§9§F§9§F§9а§x§F§2§F§2§F§2р §x§E§5§E§5§E§5П§x§D§F§D§F§D§Fо§x§D§8§D§8§D§8к§x§D§2§D§2§D§2о§x§C§B§C§B§C§Bя
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§F§F§F§F§F§F┃ §7Даёт эффект Сила §aII'
+    - ' §x§F§F§F§F§F§F┃ §7Даёт эффект Скорость §aII'
+    - ' §x§F§F§F§F§F§F┃ §7Даёт эффект Прилив здоровья §aII'
+    - ' §x§F§F§F§F§F§F┃ §7Даёт эффект Огнестойкость §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFlMTM5YzVkYjU0OGY5YTNhNGZlZmE1YWRhM2ZiN2M0ZTY2ODA1Y2ZmNGI2Zjg2ZGNiNDgwNjJkZGI5MWM4ZSJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - HEALTH_BOOST;2
+    attribute: null
+    type: HAND
+  sphere_blue:
+    display: §x§0§0§6§4§F§FШ§x§0§5§6§8§F§Fа§x§0§A§6§D§F§Fр §x§1§3§7§5§F§FА§x§1§8§7§9§F§Fр§x§1§D§7§E§F§Fх§x§2§1§8§2§F§Fа§x§2§6§8§6§F§Fн§x§2§B§8§A§F§Fг§x§3§0§8§F§F§Fе§x§3§4§9§3§F§Fл§x§3§9§9§7§F§Fа
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§0§0§6§4§F§F┃ §7Даёт эффект Скорость §aII'
+    - ' §x§0§0§6§4§F§F┃ §7Даёт эффект Сила §aI'
+    - ' §x§0§0§6§4§F§F┃ §7Даёт эффект Огнестойкость §aI'
+    - ' §x§0§0§6§4§F§F┃ §7Даёт эффект Регенерация §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZjNzk4NTM5NjA1MmZlYzVhMjIzZTY0N2UxNzlmZDQ4N2ZkNjhlMjQ0MTVlMTk2MjM1OWE0YTk2ZmJjZTFiNyJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;1
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - REGENERATION;2
+    attribute: null
+    type: HAND
+  sphere_green:
+    display: §x§0§0§F§F§6§EШ§x§0§D§F§F§7§5а§x§1§A§F§F§7§Dр §x§3§4§F§F§8§CФ§x§4§2§F§F§9§3о§x§4§F§F§F§9§Aр§x§5§C§F§F§A§2т§x§6§9§F§F§A§9у§x§7§6§F§F§B§1н§x§8§3§F§F§B§8ы
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§0§0§F§F§6§E┃ §7Даёт эффект Скорость §aII'
+    - ' §x§0§0§F§F§6§E┃ §7Даёт эффект Везение §aII'
+    - ' §x§0§0§F§F§6§E┃ §7Даёт эффект Спешка §aII'
+    - ' §x§0§0§F§F§6§E┃ §7Даёт эффект Огнестойкость §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlMTE5YTIzODJlZGE4NjRiMjQ0ZmE4YzUzYWMzZTU0NDE2MzEwM2VlNjY3OTVmMGNkNmM2NGY3YWJiOGNmMSJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - LUCK;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - FAST_DIGGING;2
+    attribute: null
+    type: HAND
+  sphere_purple:
+    display: §x§8§0§0§0§F§FШ§x§8§6§0§D§F§Fа§x§8§D§1§A§F§Fр §x§9§A§3§4§F§FЧ§x§A§0§4§1§F§Fа§x§A§6§4§D§F§Fр§x§A§D§5§A§F§Fо§x§B§3§6§7§F§Fд§x§B§A§7§4§F§Fе§x§C§0§8§1§F§Fя
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§8§0§0§0§F§F┃ §7Даёт эффект Сила §aII'
+    - ' §x§8§0§0§0§F§F┃ §7Даёт эффект Скорость §aI'
+    - ' §x§8§0§0§0§F§F┃ §7Даёт эффект Огнестойкость §aI'
+    - ' §x§8§0§0§0§F§F┃ §7Даёт эффект Прилив здоровья §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NzY1MDQ1N2M2OWNmZmNiY2Y2ODBlZWI2YTIzMWE2YWJlYjAwY2NhNWVhZGQ3YzFjNjg5MDBkNzgyZTNiOSJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;1
+    - FIRE_RESISTANCE;1
+    - HEALTH_BOOST;1
+    attribute: null
+    type: HAND
+  sphere_yellow:
+    display: §x§F§F§7§C§0§0Ш§x§F§F§8§6§0§5а§x§F§F§9§0§0§Aр §x§F§F§A§4§1§3М§x§F§F§A§E§1§8и§x§F§F§A§2§1§2д§x§F§F§9§5§0§Cа§x§F§F§8§9§0§6с§x§F§F§7§C§0§0а
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§F§F§7§C§0§0┃ §7Даёт эффект Сила §aII'
+    - ' §x§F§F§7§C§0§0┃ §7Даёт эффект Скорость §aII'
+    - ' §x§F§F§7§C§0§0┃ §7Даёт эффект Огнестойкость §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIxOTk5NDM3YjFkZTJjNDcyMGFhZDQzMmIyZWE1MzgyZTE1NDgyNzc1MjNmMjViMGY1NWMzOWEwMWMyYTljMCJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    attribute: null
+    type: HAND
+  sphere_red:
+    display: §x§F§F§0§0§0§0Ш§x§F§F§0§3§0§9а§x§F§F§0§5§1§3р §x§F§F§0§A§2§6П§x§F§F§0§D§2§Fр§x§F§F§0§F§3§9е§x§F§F§1§2§4§2п§x§F§F§0§F§3§9я§x§F§F§0§D§2§Fт§x§F§F§0§A§2§6с§x§F§F§0§8§1§Cт§x§F§F§0§5§1§3в§x§F§F§0§3§0§9и§x§F§F§0§0§0§0я
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§F§F§0§0§0§0┃ §7Даёт эффект Сила §aIII'
+    - ' §x§F§F§0§0§0§0┃ §7Даёт эффект Скорость §aII'
+    - ' §x§F§F§0§0§0§0┃ §7Даёт эффект Огнестойкость §aI'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ1ZTg1ZWRkYTFhODFkMjI0YWRiNzEzYjEzYjcwMzhkNWNjNmJlY2Q5OGE3MTZiOGEzZGVjN2UzYTBmOTgxNyJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;3
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    attribute: null
+    type: HAND
+  sphere_frank:
+    display: §x§0§0§9§4§1§0Ш§x§0§0§9§3§1§0а§x§0§0§9§2§1§0р §x§0§0§9§0§1§0Ф§x§0§0§8§F§0§Fр§x§0§0§8§E§0§Fа§x§0§0§8§D§0§Fн§x§0§0§8§C§0§Fк§x§0§0§8§A§0§Fе§x§0§0§8§9§0§Fн§x§0§0§8§8§0§Fш§x§0§0§8§7§0§Fт§x§0§0§8§6§0§Eе§x§0§0§8§5§0§Eй§x§0§0§8§4§0§Eн§x§0§0§8§3§0§Eа
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§0§0§9§4§1§0┃ §7Даёт эффект Сила §aII'
+    - ' §x§0§0§9§4§1§0┃ §7Даёт эффект Скорость §aII'
+    - ' §x§0§0§9§4§1§0┃ §7Даёт эффект Огнестойкость §aI'
+    - ' §x§0§0§9§4§1§0┃ §7Даёт эффект Невидимость §aI'
+    - ''
+    - '§7Доступно от доната: §x§F§F§6§7§0§0ʜ§x§F§F§6§E§0§0ᴀ§x§F§F§7§4§0§0ʟ§x§F§F§7§B§0§0ʟ§x§F§F§8§2§0§0ᴏ§x§F§F§8§8§0§0ᴡ§x§F§F§8§F§0§0ᴇ§x§F§F§9§5§0§0ᴇ§x§F§F§9§C§0§0ɴ'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFmNjYyNzBhODg1NmQ3N2Y0NzM1MzkxYWRkN2EzNjg5N2ZmYjc5YzcyYzNlM2EyZmE2NzEyODI5M2NkYzkzZCJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - INVISIBILITY;1
+    attribute: null
+    type: HAND
+  sphere_winter:
+    display: §x§0§0§6§E§F§FШ§x§0§0§7§4§F§Fа§x§0§0§7§9§F§Fр §x§0§0§8§5§F§FП§x§0§0§8§A§F§Fи§x§0§0§9§0§F§Fн§x§0§0§9§5§F§Fг§x§0§0§9§B§F§Fв§x§0§0§A§1§F§Fи§x§0§0§A§6§F§Fн§x§0§0§A§C§F§Fа
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§0§0§6§E§F§F┃ §7Даёт эффект Сила §aII'
+    - ' §x§0§0§6§E§F§F┃ §7Даёт эффект Скорость §aII'
+    - ' §x§0§0§6§E§F§F┃ §7Даёт эффект Спешка §aII'
+    - ' §x§0§0§6§E§F§F┃ §7Даёт эффект Огнестойкость §aI'
+    - ''
+    - '§7Доступно от доната: §x§0§0§6§E§F§Fᴡ§x§0§0§7§A§F§Fɪ§x§0§0§8§7§F§Fɴ§x§0§0§9§3§F§Fᴛ§x§0§0§A§0§F§Fᴇ§x§0§0§A§C§F§Fʀ'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjY2ODMyOWU2NDVmY2MxMGE3OWVlNzM5MWMxODM1Yzc4ZWNjYmE5NWE3YmEzODk1YzNkYTg1YTYwIn19fQ==
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - FAST_DIGGING;2
+    attribute: null
+    type: HAND
+  sphere_sakura:
+    display: §x§F§8§2§7§B§0Ш§x§F§9§2§8§B§5а§x§F§A§2§8§B§Aр §x§F§B§2§9§C§3С§x§F§C§2§A§C§8а§x§F§D§2§A§C§Dк§x§F§D§2§B§D§1у§x§F§E§2§B§D§6р§x§F§F§2§C§D§Bы
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §x§F§8§2§7§B§0┃ §7Даёт эффект Сила §aII'
+    - ' §x§F§8§2§7§B§0┃ §7Даёт эффект Скорость §aII'
+    - ' §x§F§8§2§7§B§0┃ §7Даёт эффект Огнестойкость §aI'
+    - ' §x§F§8§2§7§B§0┃ §7Даёт эффект Регенерация §aI'
+    - ''
+    - '§7Доступно от доната: §x§F§8§2§7§B§0s§x§F§9§2§8§B§9ᴀ§x§F§B§2§9§C§1ᴋ§x§F§C§2§A§C§Aᴜ§x§F§E§2§B§D§2ʀ§x§F§F§2§C§D§Bᴀ'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM0OWMwYTg0NmVmM2E1MDE4ZTgwODRiZWE4NDczMTYxYzRlZjQ4MDgxZDkwZGY3OTQ3MWM0ZTExMjQwMzZhMiJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    - REGENERATION;1
+    attribute: null
+    type: HAND
+  sphere_summer:
+    display: §x§F§F§B§0§0§0Ш§x§F§F§B§6§0§0а§x§F§F§B§C§0§0р §x§F§F§C§7§0§0Л§x§F§F§C§D§0§0е§x§F§F§D§3§0§0т§x§F§F§D§9§0§0а
+    lore:
+    - ''
+    - '§7При §aприменении §7во второй руке:'
+    - ' §e┃ §7Даёт эффект Сила §aII'
+    - ' §e┃ §7Даёт эффект Скорость §aII'
+    - ' §e┃ §7Даёт эффект Огнестойкость §aI'
+    - ' §e┃ §7Даёт эффект Исцеление §aI §7§o(SHIFT + ПКМ)'
+    - ''
+    - '§7Доступно от доната: §x§F§F§B§0§0§0§lꜱ§x§F§F§B§8§0§0§lᴜ§x§F§F§C§0§0§0§lᴍ§x§F§F§C§9§0§0§lᴍ§x§F§F§D§1§0§0§lᴇ§x§F§F§D§9§0§0§lʀ'
+    material: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2MmRkMGI5ZjY1YjU4YTFlNzBmODFkOGUwM2U4ZmY2YzUzZTRlOTg1YmRiZTAxODY1NThkOGE2OWE4MTE4OSJ9fX0=
+    hideFlags:
+    - HIDE_ATTRIBUTES
+    potions:
+    - INCREASE_DAMAGE;2
+    - SPEED;2
+    - FIRE_RESISTANCE;1
+    attribute:
+      effects:
+      - HEAL;4
+      cooldown: 15
+    type: HAND

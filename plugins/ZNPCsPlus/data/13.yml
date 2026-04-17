@@ -1,0 +1,18 @@
+id: '13'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: c8c90df7-da66-4fbd-a4c8-799d339ec1aa
+world: spawn
+location:
+  x: -54.78860135786376
+  y: 64.0
+  z: 81.35561811110526
+  yaw: -159.53174
+  pitch: -1.6500317
+type: villager
+hologram:
+  lines:
+  - '&#fd0808Войти на арену'
+  - '&7Нажмите, чтобы войти'
+actions: []

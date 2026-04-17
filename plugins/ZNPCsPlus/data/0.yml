@@ -1,0 +1,19 @@
+id: '0'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 4cd4ee83-8c07-4fa8-a6bc-457a981ec5e5
+world: spawn
+location:
+  x: 5.68215202714194
+  y: 68.0
+  z: 30.378401259014982
+  yaw: 209.48535
+  pitch: -2.8499482
+type: villager
+hologram:
+  lines:
+  - '&#fcae00Х&#fcb500а&#fdbd00л&#fdc400я&#fecc00в&#fed300а'
+  - '&7Помогу с развитием'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lQXdhcmRzUmV3YXJkICVwbGF5ZXJfbmFtZSU=;1000;ANY_CLICK;0

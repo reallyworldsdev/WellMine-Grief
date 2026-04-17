@@ -1,0 +1,18 @@
+id: '10'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: fb8fb562-4465-448f-8574-469c4a4426bc
+world: spawn
+location:
+  x: 16.30000001192093
+  y: 63.0
+  z: -28.466739536897524
+  yaw: -271.57983
+  pitch: -2.8500454
+type: villager
+hologram:
+  lines:
+  - '&#fcae00С&#fdb600к&#fdbd00у&#fec500п&#fecc00щ&#ffd400и&#ffdb00к'
+  - '&7Продажа ресурсов'
+actions: []

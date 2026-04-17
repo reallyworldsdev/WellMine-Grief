@@ -1,0 +1,20 @@
+id: '4'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: f4121141-54a0-4c26-b3b8-99822fce419d
+world: spawn
+location:
+  x: -46.41961471900904
+  y: 63.0
+  z: -38.42655649424457
+  yaw: -359.93024
+  pitch: -1.7999917
+type: villager
+hologram:
+  lines:
+  - '&#fcae00У&#fcb100н&#fcb400и&#fdb800к&#fdbb00а&#fdbe00л&#fdc100ь&#fec500н&#fec800ы&#fecb00е
+    &#fece00з&#fed100е&#ffd500л&#ffd800ь&#ffdb00я'
+  - '&7Уникальные зелья сервера'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfcG90aW9uICVwbGF5ZXJfbmFtZSU=;1000;ANY_CLICK;0

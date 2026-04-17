@@ -1,0 +1,19 @@
+id: '15'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 096dc52d-d066-4e38-acbd-4c2331e2f9a7
+world: spawn
+location:
+  x: 19.304762018500796
+  y: 63.0
+  z: 91.30576312091819
+  yaw: 133.58505
+  pitch: 0.44976994
+type: villager
+hologram:
+  lines:
+  - '&5Эндер-мир'
+  - '&7Жми-жми!!'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;d2FycCB3b3JsZF90aGVfZW5k;1000;ANY_CLICK;0

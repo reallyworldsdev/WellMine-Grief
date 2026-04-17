@@ -1,0 +1,18 @@
+id: '11'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 880da955-f530-4a64-846d-f9e7b4796e19
+world: spawn
+location:
+  x: 16.30000001192093
+  y: 63.0
+  z: -32.56250398503527
+  yaw: -301.42993
+  pitch: -3.4500575
+type: villager
+hologram:
+  lines:
+  - '&#fcae00О&#fcb400б&#fdbb00м&#fdc100е&#fec800н&#fece00н&#ffd500и&#ffdb00к'
+  - '&7Обменяю валюту'
+actions: []

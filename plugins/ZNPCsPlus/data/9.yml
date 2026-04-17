@@ -1,0 +1,19 @@
+id: '9'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 058675c2-2bf7-48f6-bcc7-fb70b6a1fe71
+world: spawn
+location:
+  x: 0.38852325715267927
+  y: 63.0
+  z: -33.302961022656675
+  yaw: -0.677124
+  pitch: -1.0500067
+type: villager
+hologram:
+  lines:
+  - '&#fcae00А&#fdb600у&#fdbd00к&#fec500ц&#fecc00и&#ffd400о&#ffdb00н'
+  - '&7Купи, продай..'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;YWg=;1000;ANY_CLICK;0

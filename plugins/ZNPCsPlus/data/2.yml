@@ -1,0 +1,18 @@
+id: '2'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: af9d073a-0ecb-47e6-a2c2-39c4688d2a53
+world: spawn
+location:
+  x: -2.525021420202491
+  y: 62.0
+  z: 22.570232349671613
+  yaw: -269.60693
+  pitch: -3.1500454
+type: snow_golem
+hologram:
+  lines:
+  - '&#02b3ffС&#02b3ffн&#02b3ffе&#02b3ffг&#02b3ffо&#02b3ffв&#02b3ffи&#02b3ffк'
+  - '&7Квестовый персонаж'
+actions: []

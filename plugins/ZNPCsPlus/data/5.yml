@@ -1,0 +1,20 @@
+id: '5'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 254bf629-7572-44ab-a7e1-50bf6446c6ad
+world: spawn
+location:
+  x: -56.516650727877526
+  y: 63.0
+  z: -38.542828943270806
+  yaw: -359.93054
+  pitch: -1.1999736
+type: villager
+hologram:
+  lines:
+  - '&#fcae00У&#fcb100н&#fcb300и&#fdb600к&#fdb900а&#fdbb00л&#fdbe00ь&#fdc100н&#fdc300ы&#fec600е
+    &#fec800п&#fecb00р&#fece00е&#fed000д&#fed300м&#ffd600е&#ffd800т&#ffdb00ы'
+  - '&7Уникальные предметы сервера'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfbGVhdmUgJXBsYXllcl9uYW1lJQ==;1000;ANY_CLICK;0

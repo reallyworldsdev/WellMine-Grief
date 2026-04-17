@@ -1,0 +1,19 @@
+id: '14'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: f0b3a17b-69fd-46aa-9931-982a4d588945
+world: spawn
+location:
+  x: 21.407264145178388
+  y: 63.0
+  z: 86.66073478811833
+  yaw: 83.785034
+  pitch: -1.6501839
+type: villager
+hologram:
+  lines:
+  - '&4Незер-мир'
+  - '&7Жми-жми!!'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;d2FycCB3b3JsZF9uZXRoZXI=;1000;ANY_CLICK;0

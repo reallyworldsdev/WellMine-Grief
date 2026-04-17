@@ -1,0 +1,19 @@
+id: '7'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 180b94a2-0995-4df0-8eea-dc3dc3f15a8d
+world: spawn
+location:
+  x: -66.58772505714194
+  y: 63.0
+  z: -18.68682334997634
+  yaw: -180.53052
+  pitch: -2.3999593
+type: villager
+hologram:
+  lines:
+  - '&#fcae00А&#fcb400м&#fdbb00у&#fdc100н&#fec800и&#fece00ц&#ffd500и&#ffdb00я'
+  - '&7Эксклюзивная экипировка'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfYXJtb3IgJXBsYXllcl9uYW1lJQ==;1000;ANY_CLICK;0
